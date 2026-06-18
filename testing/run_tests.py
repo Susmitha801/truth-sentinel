@@ -6,107 +6,77 @@ from report_generator import generate_report
 
 def run_simulation(fail_count=2):
     """
-    Simulates a test run, creating mock results for the 100 test cases
-    to generate a sample Excel report without needing webdrivers.
+    Simulates a detailed test run, mapping the categories (AUTH, NAV, FORM, UI, SEC, CB, AUX).
+    Allows injecting a specified number of failures to test HTML/Excel rendering.
     """
-    print("Running simulated E2E test suite...")
+    print("Running POM simulated test execution...")
     results = {}
     
-    # We have TS-SEL-001 to TS-SEL-050 and TS-APP-001 to TS-APP-050
-    # Let's mark a few specific test cases as FAIL to showcase the error reporting formatting
-    failed_indices_sel = random.sample(range(1, 51), fail_count // 2)
-    failed_indices_app = random.sample(range(1, 51), fail_count - (fail_count // 2))
+    # We will fetch all defined test case keys first
+    from report_generator import define_test_cases
+    tcs = define_test_cases()
     
-    # Mock Selenium results
-    for i in range(1, 51):
-        tc_id = f"TS-SEL-{i:03d}"
-        if i in failed_indices_sel:
-            results[tc_id] = {
+    # Select random items to fail (prioritizing AUTH, FORM, or UI functional)
+    keys = list(tcs.keys())
+    failed_keys = random.sample(keys, min(len(keys), fail_count))
+    
+    for key in keys:
+        if key in failed_keys:
+            results[key] = {
                 "status": "FAIL",
-                "actual": "Element not found or timed out after 10s: Button locator '//button[text()=\"Analyze\"]'.",
-                "time": "10.4s"
+                "actual": f"Verification failed. Element locator matches, but state assertion timed out. Error code SEC-ERR-{random.randint(100,999)}.",
+                "severity": random.choice(["HIGH", "CRITICAL", "MEDIUM"]),
+                "time": f"{random.uniform(5.0, 10.0):.1f}s"
             }
         else:
-            results[tc_id] = {
+            results[key] = {
                 "status": "PASS",
-                "actual": "Assertion succeeded. The targeted DOM elements matched expected layouts.",
-                "time": f"{random.uniform(0.5, 2.5):.1f}s"
+                "actual": "Assertion succeeded. Verified successfully under Page Object Model context.",
+                "severity": "N/A",
+                "time": f"{random.uniform(0.2, 1.8):.1f}s"
             }
             
-    # Mock Appium results
-    for i in range(1, 51):
-        tc_id = f"TS-APP-{i:03d}"
-        if i in failed_indices_app:
-            results[tc_id] = {
-                "status": "FAIL",
-                "actual": "Appium connection lost during page transition or soft-keyboard overlaps input target.",
-                "time": "12.1s"
-            }
-        else:
-            results[tc_id] = {
-                "status": "PASS",
-                "actual": "Responsive elements rendered correctly. Tap target registered callback successfully.",
-                "time": f"{random.uniform(0.6, 2.8):.1f}s"
-            }
-            
-    print(f"Simulation completed. 100 tests executed: {100 - fail_count} passed, {fail_count} failed.")
+    print(f"Simulation completed. {len(keys)} tests processed: {len(keys) - len(failed_keys)} passed, {len(failed_keys)} failed.")
     return results
 
-def run_real_tests(target_url, platform):
+def run_real_tests(target_url):
     """
-    Attempts to run real E2E tests using pytest.
+    Runs real Selenium tests using pytest in the tests/ directory.
     """
-    print(f"Targeting E2E tests at: {target_url}")
-    print(f"Suite selected: {platform}")
-    
+    print(f"Targeting E2E tests at local server: {target_url}")
     try:
         import pytest
     except ImportError:
-        print("Error: pytest is required to run real tests. Install it via 'pip install pytest'.")
+        print("Error: pytest is required to run test automation files.")
         sys.exit(1)
         
-    # Build arguments for pytest
-    args = []
-    if platform == "selenium":
-        args.append("selenium_tests/")
-    elif platform == "appium":
-        args.append("appium_tests/")
-    else:
-        args.append("selenium_tests/")
-        args.append("appium_tests/")
-        
-    # We can pass environmental variable for test configuration
     os.environ["TEST_TARGET_URL"] = target_url
     
+    args = ["tests/", "-v"]
     print(f"Executing: pytest {' '.join(args)}")
-    # Running pytest programmatically
     exit_code = pytest.main(args)
-    print(f"Pytest execution finished with exit code {exit_code}")
+    print(f"Pytest run completed with exit code: {exit_code}")
     
-    # In a real environment, we'd read the JUnit XML or pytest-json-report 
-    # to feed back into the report generator. We will fallback to generating the
-    # spreadsheet.
+    # Fallback to generating report using base templates
     return None
 
 def main():
-    parser = argparse.ArgumentParser(description="E2E Test Automation Runner for Truth Sentinel")
-    parser.add_argument("--simulate", action="store_true", help="Simulate a run to generate report immediately")
-    parser.add_argument("--url", default="http://localhost:5173", help="Target URL for tests (default: http://localhost:5173)")
-    parser.add_argument("--platform", choices=["all", "selenium", "appium"], default="all", help="Target platform (default: all)")
-    parser.add_argument("--output", default="test_report.xlsx", help="Filename of the output Excel spreadsheet")
-    parser.add_argument("--fails", type=int, default=2, help="Number of simulated test failures to inject (default: 2)")
+    parser = argparse.ArgumentParser(description="POM E2E Test Suite Runner for Truth Sentinel")
+    parser.add_argument("--simulate", action="store_true", help="Simulate execution to generate Excel and HTML reports")
+    parser.add_argument("--url", default="http://localhost:5173", help="Target app dev URL")
+    parser.add_argument("--output-excel", default="test_report.xlsx", help="Filename of target Excel sheet")
+    parser.add_argument("--output-html", default="test_report.html", help="Filename of target HTML page")
+    parser.add_argument("--fails", type=int, default=3, help="Simulated failures to inject")
     
     args = parser.parse_args()
     
     if args.simulate:
         results = run_simulation(args.fails)
-        generate_report(results, args.output)
+        generate_report(results, args.output_excel, args.output_html)
     else:
-        print("Note: Running real tests requires webdriver setups (chromedriver or appium server).")
-        print("Use --simulate to quickly test report generation without installing dependencies.")
-        results = run_real_tests(args.url, args.platform)
-        # Generate default sheet if pytest results weren't parsed
-        generate_report(None, args.output)
+        run_real_tests(args.url)
+        # Generate default baseline reports
+        generate_report(None, args.output_excel, args.output_html)
 
 if __name__ == "__main__":
     main()
