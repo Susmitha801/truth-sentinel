@@ -72,7 +72,7 @@ function AnalyzePage() {
     setResult(null);
     await new Promise((r) => setTimeout(r, 1400));
     const r = analyze({ source, text: payload, title });
-    saveResult(r);
+    await saveResult(r);
     setResult(r);
     setLoading(false);
     toast.success(`Analysis complete · ${r.verdict.toUpperCase()}`);

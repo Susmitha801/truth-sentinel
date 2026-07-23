@@ -147,6 +147,9 @@ export function analyze(input: {
 
 const KEY = "fns_history_v1";
 
+// Supabase-backed persistence (with localStorage fallback/cache)
+import { supabase } from "./supabase";
+
 export function loadHistory(): AnalysisResult[] {
   if (typeof window === "undefined") return [];
   try {
@@ -156,13 +159,95 @@ export function loadHistory(): AnalysisResult[] {
   }
 }
 
-export function saveResult(r: AnalysisResult) {
-  if (typeof window === "undefined") return;
-  const list = [r, ...loadHistory()].slice(0, 100);
-  localStorage.setItem(KEY, JSON.stringify(list));
+export async function loadHistoryFromSupabase(): Promise<AnalysisResult[]> {
+  try {
+    const { data, error } = await supabase
+      .from("analyses")
+      .select("*")
+      .order("created_at", { ascending: false })
+      .limit(100);
+
+    if (error) {
+      console.warn("Supabase load error, falling back to localStorage:", error.message);
+      return loadHistory();
+    }
+
+    const results: AnalysisResult[] = (data || []).map((row: any) => ({
+      id: row.id,
+      createdAt: row.created_at,
+      source: row.source,
+      title: row.title,
+      excerpt: row.excerpt,
+      verdict: row.verdict,
+      confidence: row.confidence,
+      credibility: row.credibility,
+      sentiment: row.sentiment,
+      suspiciousPhrases: row.suspicious_phrases || [],
+      keywords: row.keywords || [],
+      category: row.category,
+      reasoning: row.reasoning || [],
+      sourceRating: row.source_rating,
+    }));
+
+    // Sync to localStorage as cache
+    if (typeof window !== "undefined") {
+      localStorage.setItem(KEY, JSON.stringify(results));
+    }
+
+    return results;
+  } catch {
+    return loadHistory();
+  }
 }
 
-export function clearHistory() {
-  if (typeof window === "undefined") return;
-  localStorage.removeItem(KEY);
+export async function saveResult(r: AnalysisResult) {
+  // Always save to localStorage first (instant)
+  if (typeof window !== "undefined") {
+    const list = [r, ...loadHistory()].slice(0, 100);
+    localStorage.setItem(KEY, JSON.stringify(list));
+  }
+
+  // Then persist to Supabase
+  try {
+    const { error } = await supabase.from("analyses").insert({
+      id: r.id,
+      created_at: r.createdAt,
+      source: r.source,
+      title: r.title,
+      excerpt: r.excerpt,
+      verdict: r.verdict,
+      confidence: r.confidence,
+      credibility: r.credibility,
+      sentiment: r.sentiment,
+      suspicious_phrases: r.suspiciousPhrases,
+      keywords: r.keywords,
+      category: r.category,
+      reasoning: r.reasoning,
+      source_rating: r.sourceRating ?? null,
+    });
+
+    if (error) {
+      console.warn("Supabase save error:", error.message);
+    }
+  } catch (err) {
+    console.warn("Supabase save failed:", err);
+  }
 }
+
+export async function clearHistory() {
+  // Clear localStorage
+  if (typeof window !== "undefined") {
+    localStorage.removeItem(KEY);
+  }
+
+  // Clear Supabase table
+  try {
+    const { error } = await supabase.from("analyses").delete().neq("id", "");
+    if (error) {
+      console.warn("Supabase clear error:", error.message);
+    }
+  } catch (err) {
+    console.warn("Supabase clear failed:", err);
+  }
+}
+

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Trash2, FileSearch } from "lucide-react";
 import { SiteNav, SiteFooter } from "@/components/site-nav";
 import { Button } from "@/components/ui/button";
-import { clearHistory, loadHistory, type AnalysisResult } from "@/lib/analyzer";
+import { clearHistory, loadHistory, loadHistoryFromSupabase, type AnalysisResult } from "@/lib/analyzer";
 import { ResultCard } from "@/components/result-card";
 import { VerdictBadge } from "./dashboard";
 
@@ -25,13 +25,18 @@ function HistoryPage() {
   const [selected, setSelected] = useState<AnalysisResult | null>(null);
 
   useEffect(() => {
-    const h = loadHistory();
-    setHistory(h);
-    setSelected(h[0] ?? null);
+    // Load from localStorage immediately, then refresh from Supabase
+    const cached = loadHistory();
+    setHistory(cached);
+    setSelected(cached[0] ?? null);
+    loadHistoryFromSupabase().then((data) => {
+      setHistory(data);
+      setSelected(data[0] ?? null);
+    });
   }, []);
 
-  const reset = () => {
-    clearHistory();
+  const reset = async () => {
+    await clearHistory();
     setHistory([]);
     setSelected(null);
   };

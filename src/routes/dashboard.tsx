@@ -25,7 +25,7 @@ import {
 
 import { SiteNav, SiteFooter } from "@/components/site-nav";
 import { Button } from "@/components/ui/button";
-import { loadHistory, type AnalysisResult } from "@/lib/analyzer";
+import { loadHistory, loadHistoryFromSupabase, type AnalysisResult } from "@/lib/analyzer";
 
 export const Route = createFileRoute("/dashboard")({
   head: () => ({
@@ -72,7 +72,9 @@ function Dashboard() {
   const [history, setHistory] = useState<AnalysisResult[]>([]);
 
   useEffect(() => {
+    // Load from localStorage immediately, then refresh from Supabase
     setHistory(loadHistory());
+    loadHistoryFromSupabase().then((data) => setHistory(data));
   }, []);
 
   const counts = {
