@@ -66,7 +66,7 @@ def main():
     parser.add_argument("--url", default="http://localhost:5173", help="Target app dev URL")
     parser.add_argument("--output-excel", default="test_report.xlsx", help="Filename of target Excel sheet")
     parser.add_argument("--output-html", default="test_report.html", help="Filename of target HTML page")
-    parser.add_argument("--fails", type=int, default=3, help="Simulated failures to inject")
+    parser.add_argument("--fails", type=int, default=0, help="Simulated failures to inject")
     
     args = parser.parse_args()
     
