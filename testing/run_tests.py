@@ -20,6 +20,8 @@ def run_appium_python():
 def run_master_compile():
     print("Generating simulated results for Unit, Val, Dep, and Load suites...")
     subprocess.run([sys.executable, "generate_results.py"])
+    print("Generating vulnerability Excel report...")
+    subprocess.run([sys.executable, "generate_vuln_sheet.py"])
     print("Compiling master report via compile_master_report.py...")
     subprocess.run([sys.executable, "compile_master_report.py"])
 

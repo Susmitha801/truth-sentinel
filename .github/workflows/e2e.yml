@@ -224,6 +224,7 @@ jobs:
     - name: Run Master Compiler
       run: |
         cd testing
+        python generate_vuln_sheet.py
         python compile_master_report.py
 
     - name: Upload Master Excel Test Report
@@ -237,3 +238,10 @@ jobs:
       with:
         name: Consolidated-HTML-Report
         path: testing/test_report.html
+
+    - name: Upload Vulnerability Report Excel
+      uses: actions/upload-artifact@v4
+      with:
+        name: Vulnerability-Report-Excel
+        path: "Vulnerability Test Results/Vulnerability_Report.xlsx"
+
