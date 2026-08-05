@@ -26,6 +26,7 @@ import {
 import { SiteNav, SiteFooter } from "@/components/site-nav";
 import { Button } from "@/components/ui/button";
 import { loadHistory, loadHistoryFromSupabase, type AnalysisResult } from "@/lib/analyzer";
+import { ResultCard } from "@/components/result-card";
 
 export const Route = createFileRoute("/dashboard")({
   head: () => ({
@@ -70,6 +71,7 @@ function Stat({
 
 function Dashboard() {
   const [history, setHistory] = useState<AnalysisResult[]>([]);
+  const [selected, setSelected] = useState<AnalysisResult | null>(null);
 
   useEffect(() => {
     // Load from localStorage immediately, then refresh from Supabase
@@ -257,8 +259,12 @@ function Dashboard() {
                   </thead>
                   <tbody>
                     {history.slice(0, 6).map((h) => (
-                      <tr key={h.id} className="border-t border-border">
-                        <td className="max-w-xs truncate py-3 pr-4">{h.title}</td>
+                      <tr
+                        key={h.id}
+                        className={`border-t border-border cursor-pointer transition hover:bg-muted/50 ${selected?.id === h.id ? "bg-muted/30" : ""}`}
+                        onClick={() => setSelected(h)}
+                      >
+                        <td className="max-w-xs truncate py-3 pr-4 font-medium">{h.title}</td>
                         <td className="py-3 pr-4">
                           <VerdictBadge verdict={h.verdict} />
                         </td>
@@ -273,6 +279,18 @@ function Dashboard() {
                 </table>
               </div>
             </div>
+
+            {selected && (
+              <div className="mt-6">
+                <div className="mb-4 flex items-center justify-between">
+                  <h3 className="font-display text-lg font-semibold">Analysis details</h3>
+                  <Button variant="ghost" size="sm" onClick={() => setSelected(null)}>
+                    Close details
+                  </Button>
+                </div>
+                <ResultCard result={selected} />
+              </div>
+            )}
           </>
         )}
       </main>
