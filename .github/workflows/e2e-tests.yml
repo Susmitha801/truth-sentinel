@@ -20,16 +20,14 @@ jobs:
       with:
         node-version: '20'
         cache: 'npm'
-        cache-dependency-path: 'truth-sentinel-main/package.json'
+        cache-dependency-path: 'package.json'
 
     - name: Install Frontend Dependencies
       run: |
-        cd truth-sentinel-main
         npm install
 
     - name: Start React Frontend Server
       run: |
-        cd truth-sentinel-main
         npm run dev &
       env:
         PORT: 5173
@@ -39,34 +37,34 @@ jobs:
       with:
         python-version: '3.11'
         cache: 'pip'
-        cache-dependency-path: 'truth-sentinel-main/testing/requirements.txt'
+        cache-dependency-path: 'testing/requirements.txt'
 
     - name: Install Python Dependencies
       run: |
-        cd truth-sentinel-main/testing
+        cd testing
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
     - name: Run E2E Test Suite (Headless Simulation Mode)
       run: |
-        cd truth-sentinel-main/testing
+        cd testing
         python run_tests.py --simulate --fails 0
 
     - name: Upload Excel Test Report
       uses: actions/upload-artifact@v4
       with:
         name: Excel-Test-Report
-        path: truth-sentinel-main/testing/test_report.xlsx
+        path: testing/test_report.xlsx
 
     - name: Upload HTML Test Report
       uses: actions/upload-artifact@v4
       with:
         name: HTML-Test-Report
-        path: truth-sentinel-main/testing/test_report.html
+        path: testing/test_report.html
 
     - name: Upload Failure Screenshots
       if: failure()
       uses: actions/upload-artifact@v4
       with:
         name: Failure-Screenshots
-        path: truth-sentinel-main/testing/screenshots/
+        path: testing/screenshots/
