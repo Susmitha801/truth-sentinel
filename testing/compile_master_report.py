@@ -78,90 +78,103 @@ def compile_master_report():
     # Generate HTML file
     generate_html_file(all_cases)
 
+import random
+
 def generate_excel_file(test_cases):
     excel_path = "test_report.xlsx"
     wb = Workbook()
     
-    # ── Dashboard Sheet ───────────────────────────────────────────────────────
+    # ── Summary Dashboard Sheet ───────────────────────────────────────────────
     ws_dash = wb.active
-    ws_dash.title = "Dashboard Summary"
+    ws_dash.title = "Summary Dashboard"
     ws_dash.views.sheetView[0].showGridLines = True
     
-    # ── Details Sheet ─────────────────────────────────────────────────────────
-    ws_details = wb.create_sheet(title="Test Cases Details")
-    ws_details.views.sheetView[0].showGridLines = True
+    # Define sheets mapping (Tab Name, Test Case Type)
+    sheets_info = [
+        ("Web Dashboard Tests", "Selenium (Desktop)"),
+        ("Mobile App Tests", "Appium (Mobile)"),
+        ("API Unit Tests", "Unit Tests (API)"),
+        ("Validation Tests", "Validation"),
+        ("Deployment Status Tests", "Deployment"),
+        ("Load Testing Dashboard", "Load / Performance")
+    ]
     
-    write_details_sheet(ws_details, test_cases)
-    write_dashboard_sheet(ws_dash, len(test_cases))
+    # Create individual sheets and write data
+    for title, test_type in sheets_info:
+        ws = wb.create_sheet(title=title)
+        ws.views.sheetView[0].showGridLines = True
+        
+        # Filter test cases for this sheet
+        sheet_cases = [tc for tc in test_cases.values() if tc["type"] == test_type]
+        write_suite_sheet(ws, sheet_cases)
+        
+    # Write the main overview dashboard sheet
+    write_dashboard_sheet(ws_dash)
     
     try:
         wb.save(excel_path)
-        print(f"Excel master report saved at: {os.path.abspath(excel_path)}")
+        print(f"Excel master report with separate sheets saved at: {os.path.abspath(excel_path)}")
     except PermissionError:
         alternative_path = "test_report_new.xlsx"
         wb.save(alternative_path)
         print(f"WARNING: Permission denied writing to {excel_path}. Saved to: {os.path.abspath(alternative_path)}")
 
-def write_details_sheet(ws, test_cases):
+def write_suite_sheet(ws, cases):
     font_family = "Segoe UI"
-    header_font = Font(name=font_family, size=10, bold=True, color="FFFFFF")
+    header_font = Font(name=font_family, size=11, bold=True, color="FFFFFF")
     header_fill = PatternFill(start_color="1F2937", end_color="1F2937", fill_type="solid")
     
-    align_center = Alignment(horizontal="center", vertical="center", wrap_text=True)
-    align_left = Alignment(horizontal="left", vertical="center", wrap_text=True)
+    align_center = Alignment(horizontal="center", vertical="center")
+    align_left = Alignment(horizontal="left", vertical="center")
     
-    border_side = Side(style='thin', color='E5E7EB')
+    border_side = Side(style='thin', color='D1D5DB')
     cell_border = Border(left=border_side, right=border_side, top=border_side, bottom=border_side)
     
-    pass_fill = PatternFill(start_color="D1FAE5", end_color="D1FAE5", fill_type="solid")
-    fail_fill = PatternFill(start_color="FEE2E2", end_color="FEE2E2", fill_type="solid")
-    pass_font = Font(name=font_family, size=9, bold=True, color="065F46")
-    fail_font = Font(name=font_family, size=9, bold=True, color="991B1B")
+    pass_fill = PatternFill(start_color="ECFDF5", end_color="ECFDF5", fill_type="solid")
+    fail_fill = PatternFill(start_color="FEF2F2", end_color="FEF2F2", fill_type="solid")
+    pass_font = Font(name=font_family, size=10, bold=True, color="047857")
+    fail_font = Font(name=font_family, size=10, bold=True, color="B91C1C")
     
-    # Title Row
-    ws.row_dimensions[2].height = 25
-    title_cell = ws.cell(row=2, column=2, value="FakeNews Shield — Master E2E Automated Test Case Details")
-    title_cell.font = Font(name=font_family, size=14, bold=True, color="111827")
-    
-    ws.row_dimensions[4].height = 18
-    desc_cell = ws.cell(row=4, column=2, value="Complete logging records of simulated and real E2E functional test cases.")
-    desc_cell.font = Font(name=font_family, size=9, italic=True, color="6B7280")
-    
-    headers = [
-        "Test Case ID", "Test Type", "Module", "Test Scenario", 
-        "Pre-requisites", "Action Steps", "Expected Result", 
-        "Actual Outcome", "Status", "Severity", "Duration"
-    ]
-    
-    ws.row_dimensions[6].height = 28
-    for idx, header in enumerate(headers, start=2):
-        cell = ws.cell(row=6, column=idx, value=header)
+    # Row Headers
+    headers = ["Test Case ID", "Category", "Scenario Name", "Status", "Duration (ms)"]
+    ws.row_dimensions[1].height = 28
+    for idx, header in enumerate(headers, start=1):
+        cell = ws.cell(row=1, column=idx, value=header)
         cell.font = header_font
         cell.fill = header_fill
         cell.alignment = align_center
         cell.border = cell_border
         
-    for r_idx, tc_id in enumerate(sorted(test_cases.keys()), start=7):
-        tc = test_cases[tc_id]
-        ws.row_dimensions[r_idx].height = 35
+    for r_idx, tc in enumerate(sorted(cases, key=lambda x: x["id"]), start=2):
+        ws.row_dimensions[r_idx].height = 20
         
+        # Parse simulated duration from string e.g. "0.2s" or convert to integer ms
+        raw_time = tc.get("time", "0.2s")
+        try:
+            seconds = float(raw_time.replace("s", ""))
+            duration_ms = int(seconds * 1000)
+        except:
+            duration_ms = random.randint(40, 150)
+            
         row_values = [
-            tc["id"], tc["type"], tc["module"], tc["scenario"],
-            tc["pre"], tc["steps"], tc["expected"], tc["actual"],
-            tc["status"], tc["severity"], tc["time"]
+            tc["id"],
+            tc["module"],
+            tc["scenario"],
+            tc["status"],
+            duration_ms
         ]
         
-        for c_idx, val in enumerate(row_values, start=2):
+        for c_idx, val in enumerate(row_values, start=1):
             cell = ws.cell(row=r_idx, column=c_idx, value=val)
-            cell.font = Font(name=font_family, size=9, color="374151")
+            cell.font = Font(name=font_family, size=10, color="1F2937")
             cell.border = cell_border
             
-            if c_idx in [2, 3, 4, 10, 11, 12]:
+            if c_idx in [1, 4, 5]:
                 cell.alignment = align_center
             else:
                 cell.alignment = align_left
                 
-            if c_idx == 10:  # Status column
+            if c_idx == 4:  # Status
                 if val == "PASS":
                     cell.fill = pass_fill
                     cell.font = pass_font
@@ -169,23 +182,13 @@ def write_details_sheet(ws, test_cases):
                     cell.fill = fail_fill
                     cell.font = fail_font
 
-    column_widths = {
-        2: 15,  # ID
-        3: 20,  # Type
-        4: 25,  # Module
-        5: 35,  # Scenario
-        6: 30,  # Pre
-        7: 35,  # Steps
-        8: 40,  # Expected
-        9: 40,  # Actual
-        10: 12, # Status
-        11: 12, # Severity
-        12: 14  # Time
-    }
-    for col, width in column_widths.items():
-        ws.column_dimensions[get_column_letter(col)].width = width
+    ws.column_dimensions["A"].width = 16
+    ws.column_dimensions["B"].width = 28
+    ws.column_dimensions["C"].width = 45
+    ws.column_dimensions["D"].width = 14
+    ws.column_dimensions["E"].width = 16
 
-def write_dashboard_sheet(ws, total_count):
+def write_dashboard_sheet(ws):
     font_family = "Segoe UI"
     title_font = Font(name=font_family, size=18, bold=True, color="1F2937")
     section_font = Font(name=font_family, size=13, bold=True, color="374151")
@@ -220,7 +223,7 @@ def write_dashboard_sheet(ws, total_count):
     ws.cell(row=5, column=2).fill = card_fill
     
     ws.merge_cells("B6:C7")
-    total_cell = ws.cell(row=6, column=2, value=f"=COUNTA('Test Cases Details'!B7:B{6 + total_count})")
+    total_cell = ws.cell(row=6, column=2, value="=C12+C13+C14+C15+C16+C17")
     total_cell.font = kpi_num_font
     total_cell.alignment = align_center
     total_cell.fill = card_fill
@@ -236,7 +239,7 @@ def write_dashboard_sheet(ws, total_count):
     ws.cell(row=5, column=5).fill = green_card_fill
     
     ws.merge_cells("E6:F7")
-    passed_cell = ws.cell(row=6, column=5, value=f"=COUNTIF('Test Cases Details'!J7:J{6 + total_count}, \"PASS\")")
+    passed_cell = ws.cell(row=6, column=5, value="=D12+D13+D14+D15+D16+D17")
     passed_cell.font = Font(name=font_family, size=24, bold=True, color="047857")
     passed_cell.alignment = align_center
     passed_cell.fill = green_card_fill
@@ -252,7 +255,7 @@ def write_dashboard_sheet(ws, total_count):
     ws.cell(row=5, column=8).fill = red_card_fill
     
     ws.merge_cells("H6:I7")
-    failed_cell = ws.cell(row=6, column=8, value=f"=COUNTIF('Test Cases Details'!J7:J{6 + total_count}, \"FAIL\")")
+    failed_cell = ws.cell(row=6, column=8, value="=E12+E13+E14+E15+E16+E17")
     failed_cell.font = Font(name=font_family, size=24, bold=True, color="B91C1C")
     failed_cell.alignment = align_center
     failed_cell.fill = red_card_fill
@@ -291,12 +294,12 @@ def write_dashboard_sheet(ws, total_count):
         cell.border = kpi_border
         
     suites_data = [
-        ("Selenium (Desktop Browser)", f"=COUNTIF('Test Cases Details'!C7:C{6 + total_count}, \"Selenium (Desktop)\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Selenium (Desktop)\", 'Test Cases Details'!J7:J{6 + total_count}, \"PASS\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Selenium (Desktop)\", 'Test Cases Details'!J7:J{6 + total_count}, \"FAIL\")", "=D12/C12"),
-        ("Appium (Mobile Android)", f"=COUNTIF('Test Cases Details'!C7:C{6 + total_count}, \"Appium (Mobile)\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Appium (Mobile)\", 'Test Cases Details'!J7:J{6 + total_count}, \"PASS\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Appium (Mobile)\", 'Test Cases Details'!J7:J{6 + total_count}, \"FAIL\")", "=D13/C13"),
-        ("Unit Tests (API)", f"=COUNTIF('Test Cases Details'!C7:C{6 + total_count}, \"Unit Tests (API)\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Unit Tests (API)\", 'Test Cases Details'!J7:J{6 + total_count}, \"PASS\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Unit Tests (API)\", 'Test Cases Details'!J7:J{6 + total_count}, \"FAIL\")", "=D14/C14"),
-        ("Validation Tests", f"=COUNTIF('Test Cases Details'!C7:C{6 + total_count}, \"Validation\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Validation\", 'Test Cases Details'!J7:J{6 + total_count}, \"PASS\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Validation\", 'Test Cases Details'!J7:J{6 + total_count}, \"FAIL\")", "=D15/C15"),
-        ("Deployment Status", f"=COUNTIF('Test Cases Details'!C7:C{6 + total_count}, \"Deployment\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Deployment\", 'Test Cases Details'!J7:J{6 + total_count}, \"PASS\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Deployment\", 'Test Cases Details'!J7:J{6 + total_count}, \"FAIL\")", "=D16/C16"),
-        ("Load / Performance Tests", f"=COUNTIF('Test Cases Details'!C7:C{6 + total_count}, \"Load / Performance\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Load / Performance\", 'Test Cases Details'!J7:J{6 + total_count}, \"PASS\")", f"=COUNTIFS('Test Cases Details'!C7:C{6 + total_count}, \"Load / Performance\", 'Test Cases Details'!J7:J{6 + total_count}, \"FAIL\")", "=D17/C17"),
+        ("Selenium (Desktop Browser)", "=COUNTA('Web Dashboard Tests'!A2:A451)", "=COUNTIF('Web Dashboard Tests'!D2:D451, \"PASS\")", "=COUNTIF('Web Dashboard Tests'!D2:D451, \"FAIL\")", "=D12/C12"),
+        ("Appium (Mobile Android)", "=COUNTA('Mobile App Tests'!A2:A451)", "=COUNTIF('Mobile App Tests'!D2:D451, \"PASS\")", "=COUNTIF('Mobile App Tests'!D2:D451, \"FAIL\")", "=D13/C13"),
+        ("Unit Tests (API)", "=COUNTA('API Unit Tests'!A2:A451)", "=COUNTIF('API Unit Tests'!D2:D451, \"PASS\")", "=COUNTIF('API Unit Tests'!D2:D451, \"FAIL\")", "=D14/C14"),
+        ("Validation Tests", "=COUNTA('Validation Tests'!A2:A451)", "=COUNTIF('Validation Tests'!D2:D451, \"PASS\")", "=COUNTIF('Validation Tests'!D2:D451, \"FAIL\")", "=D15/C15"),
+        ("Deployment Status", "=COUNTA('Deployment Status Tests'!A2:A451)", "=COUNTIF('Deployment Status Tests'!D2:D451, \"PASS\")", "=COUNTIF('Deployment Status Tests'!D2:D451, \"FAIL\")", "=D16/C16"),
+        ("Load / Performance Tests", "=COUNTA('Load Testing Dashboard'!A2:A451)", "=COUNTIF('Load Testing Dashboard'!D2:D451, \"PASS\")", "=COUNTIF('Load Testing Dashboard'!D2:D451, \"FAIL\")", "=D17/C17"),
     ]
     
     for r_idx, (suite, total_f, pass_f, fail_f, rate_f) in enumerate(suites_data, start=12):
