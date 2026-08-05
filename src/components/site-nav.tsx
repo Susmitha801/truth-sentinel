@@ -88,10 +88,10 @@ export function SiteFooter() {
       <div className="glass rounded-2xl px-6 py-5">
         <div className="flex items-center justify-center gap-2">
           <Shield className="h-3.5 w-3.5" />
-          <span className="font-medium">Fake News Shield</span>
+          <span className="font-medium">Fake News Shield AI</span>
         </div>
-        <p className="mt-2">
-          AI-powered news authenticity detector. Predictions are heuristic — verify with primary sources.
+        <p className="mt-2 text-foreground/80">
+          Protected by FakeNews Shield AI · Heuristic NLP verification scan engine
         </p>
       </div>
     </footer>

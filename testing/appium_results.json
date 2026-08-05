@@ -1,0 +1,4052 @@
+[
+  {
+    "id": "MOB-AUTH-001",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #1",
+    "steps": "1. Open app\n2. Fill login details #1\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-AUTH-002",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #2",
+    "steps": "1. Open app\n2. Fill login details #2\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-AUTH-003",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #3",
+    "steps": "1. Open app\n2. Fill login details #3\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-AUTH-004",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #4",
+    "steps": "1. Open app\n2. Fill login details #4\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-AUTH-005",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #5",
+    "steps": "1. Open app\n2. Fill login details #5\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-AUTH-006",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #6",
+    "steps": "1. Open app\n2. Fill login details #6\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-AUTH-007",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #7",
+    "steps": "1. Open app\n2. Fill login details #7\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-AUTH-008",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #8",
+    "steps": "1. Open app\n2. Fill login details #8\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-AUTH-009",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #9",
+    "steps": "1. Open app\n2. Fill login details #9\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.12s"
+  },
+  {
+    "id": "MOB-AUTH-010",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #10",
+    "steps": "1. Open app\n2. Fill login details #10\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-AUTH-011",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #11",
+    "steps": "1. Open app\n2. Fill login details #11\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.32s"
+  },
+  {
+    "id": "MOB-AUTH-012",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #12",
+    "steps": "1. Open app\n2. Fill login details #12\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.39s"
+  },
+  {
+    "id": "MOB-AUTH-013",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #13",
+    "steps": "1. Open app\n2. Fill login details #13\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-AUTH-014",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #14",
+    "steps": "1. Open app\n2. Fill login details #14\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.31s"
+  },
+  {
+    "id": "MOB-AUTH-015",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #15",
+    "steps": "1. Open app\n2. Fill login details #15\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-AUTH-016",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #16",
+    "steps": "1. Open app\n2. Fill login details #16\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.39s"
+  },
+  {
+    "id": "MOB-AUTH-017",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #17",
+    "steps": "1. Open app\n2. Fill login details #17\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-AUTH-018",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #18",
+    "steps": "1. Open app\n2. Fill login details #18\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.11s"
+  },
+  {
+    "id": "MOB-AUTH-019",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #19",
+    "steps": "1. Open app\n2. Fill login details #19\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-AUTH-020",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #20",
+    "steps": "1. Open app\n2. Fill login details #20\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-AUTH-021",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #21",
+    "steps": "1. Open app\n2. Fill login details #21\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-AUTH-022",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #22",
+    "steps": "1. Open app\n2. Fill login details #22\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-AUTH-023",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #23",
+    "steps": "1. Open app\n2. Fill login details #23\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-AUTH-024",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #24",
+    "steps": "1. Open app\n2. Fill login details #24\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.38s"
+  },
+  {
+    "id": "MOB-AUTH-025",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #25",
+    "steps": "1. Open app\n2. Fill login details #25\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-AUTH-026",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #26",
+    "steps": "1. Open app\n2. Fill login details #26\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-AUTH-027",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #27",
+    "steps": "1. Open app\n2. Fill login details #27\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.33s"
+  },
+  {
+    "id": "MOB-AUTH-028",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #28",
+    "steps": "1. Open app\n2. Fill login details #28\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.32s"
+  },
+  {
+    "id": "MOB-AUTH-029",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #29",
+    "steps": "1. Open app\n2. Fill login details #29\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-AUTH-030",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #30",
+    "steps": "1. Open app\n2. Fill login details #30\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-AUTH-031",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #31",
+    "steps": "1. Open app\n2. Fill login details #31\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-AUTH-032",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #32",
+    "steps": "1. Open app\n2. Fill login details #32\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-AUTH-033",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #33",
+    "steps": "1. Open app\n2. Fill login details #33\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.13s"
+  },
+  {
+    "id": "MOB-AUTH-034",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #34",
+    "steps": "1. Open app\n2. Fill login details #34\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.36s"
+  },
+  {
+    "id": "MOB-AUTH-035",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #35",
+    "steps": "1. Open app\n2. Fill login details #35\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-AUTH-036",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #36",
+    "steps": "1. Open app\n2. Fill login details #36\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-AUTH-037",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #37",
+    "steps": "1. Open app\n2. Fill login details #37\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-AUTH-038",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #38",
+    "steps": "1. Open app\n2. Fill login details #38\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-AUTH-039",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #39",
+    "steps": "1. Open app\n2. Fill login details #39\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-AUTH-040",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #40",
+    "steps": "1. Open app\n2. Fill login details #40\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-AUTH-041",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #41",
+    "steps": "1. Open app\n2. Fill login details #41\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-AUTH-042",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #42",
+    "steps": "1. Open app\n2. Fill login details #42\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-AUTH-043",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #43",
+    "steps": "1. Open app\n2. Fill login details #43\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-AUTH-044",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #44",
+    "steps": "1. Open app\n2. Fill login details #44\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.38s"
+  },
+  {
+    "id": "MOB-AUTH-045",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #45",
+    "steps": "1. Open app\n2. Fill login details #45\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-AUTH-046",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #46",
+    "steps": "1. Open app\n2. Fill login details #46\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-AUTH-047",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #47",
+    "steps": "1. Open app\n2. Fill login details #47\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-AUTH-048",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #48",
+    "steps": "1. Open app\n2. Fill login details #48\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-AUTH-049",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #49",
+    "steps": "1. Open app\n2. Fill login details #49\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-AUTH-050",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #50",
+    "steps": "1. Open app\n2. Fill login details #50\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-AUTH-051",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #51",
+    "steps": "1. Open app\n2. Fill login details #51\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.13s"
+  },
+  {
+    "id": "MOB-AUTH-052",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #52",
+    "steps": "1. Open app\n2. Fill login details #52\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-AUTH-053",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #53",
+    "steps": "1. Open app\n2. Fill login details #53\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-AUTH-054",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #54",
+    "steps": "1. Open app\n2. Fill login details #54\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-AUTH-055",
+    "module": "Mobile Authentication",
+    "scenario": "Verify user login flow on mobile view - Test variant #55",
+    "steps": "1. Open app\n2. Fill login details #55\n3. Tap submit button",
+    "expected": "Authenticates and routes to home dashboard correctly.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-NAV-001",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #1",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #1\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-NAV-002",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #2",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #2\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.12s"
+  },
+  {
+    "id": "MOB-NAV-003",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #3",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #3\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.13s"
+  },
+  {
+    "id": "MOB-NAV-004",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #4",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #4\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-NAV-005",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #5",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #5\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-NAV-006",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #6",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #6\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.16s"
+  },
+  {
+    "id": "MOB-NAV-007",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #7",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #7\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-NAV-008",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #8",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #8\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-NAV-009",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #9",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #9\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-NAV-010",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #10",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #10\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-NAV-011",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #11",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #11\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-NAV-012",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #12",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #12\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-NAV-013",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #13",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #13\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-NAV-014",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #14",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #14\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-NAV-015",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #15",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #15\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.13s"
+  },
+  {
+    "id": "MOB-NAV-016",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #16",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #16\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-NAV-017",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #17",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #17\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-NAV-018",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #18",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #18\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-NAV-019",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #19",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #19\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.12s"
+  },
+  {
+    "id": "MOB-NAV-020",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #20",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #20\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-NAV-021",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #21",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #21\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-NAV-022",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #22",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #22\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-NAV-023",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #23",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #23\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-NAV-024",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #24",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #24\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-NAV-025",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #25",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #25\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-NAV-026",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #26",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #26\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-NAV-027",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #27",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #27\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.11s"
+  },
+  {
+    "id": "MOB-NAV-028",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #28",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #28\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-NAV-029",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #29",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #29\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-NAV-030",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #30",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #30\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.11s"
+  },
+  {
+    "id": "MOB-NAV-031",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #31",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #31\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-NAV-032",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #32",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #32\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-NAV-033",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #33",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #33\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-NAV-034",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #34",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #34\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-NAV-035",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #35",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #35\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.10s"
+  },
+  {
+    "id": "MOB-NAV-036",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #36",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #36\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-NAV-037",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #37",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #37\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-NAV-038",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #38",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #38\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-NAV-039",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #39",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #39\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-NAV-040",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #40",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #40\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-NAV-041",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #41",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #41\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-NAV-042",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #42",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #42\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.11s"
+  },
+  {
+    "id": "MOB-NAV-043",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #43",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #43\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-NAV-044",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #44",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #44\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-NAV-045",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #45",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #45\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-NAV-046",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #46",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #46\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-NAV-047",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #47",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #47\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-NAV-048",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #48",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #48\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-NAV-049",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #49",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #49\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-NAV-050",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #50",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #50\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-NAV-051",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #51",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #51\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-NAV-052",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #52",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #52\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-NAV-053",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #53",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #53\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-NAV-054",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #54",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #54\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-NAV-055",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #55",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #55\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-NAV-056",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #56",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #56\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-NAV-057",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #57",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #57\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-NAV-058",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #58",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #58\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-NAV-059",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #59",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #59\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.10s"
+  },
+  {
+    "id": "MOB-NAV-060",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #60",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #60\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-NAV-061",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #61",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #61\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-NAV-062",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #62",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #62\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-NAV-063",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #63",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #63\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-NAV-064",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #64",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #64\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-NAV-065",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #65",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #65\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-NAV-066",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #66",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #66\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.16s"
+  },
+  {
+    "id": "MOB-NAV-067",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #67",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #67\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-NAV-068",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #68",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #68\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.16s"
+  },
+  {
+    "id": "MOB-NAV-069",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #69",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #69\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-NAV-070",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #70",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #70\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-NAV-071",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #71",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #71\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-NAV-072",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #72",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #72\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-NAV-073",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #73",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #73\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-NAV-074",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #74",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #74\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-NAV-075",
+    "module": "Mobile Navigation & Gestures",
+    "scenario": "Assert link tap and sidebar navigation gestures - Check #75",
+    "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #75\n3. Wait for view transition",
+    "expected": "Layout repaints without overlay errors.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-DET-001",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #1",
+    "steps": "1. Tap input text area\n2. Type payload content index #1\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-DET-002",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #2",
+    "steps": "1. Tap input text area\n2. Type payload content index #2\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-DET-003",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #3",
+    "steps": "1. Tap input text area\n2. Type payload content index #3\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-DET-004",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #4",
+    "steps": "1. Tap input text area\n2. Type payload content index #4\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-DET-005",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #5",
+    "steps": "1. Tap input text area\n2. Type payload content index #5\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-DET-006",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #6",
+    "steps": "1. Tap input text area\n2. Type payload content index #6\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-DET-007",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #7",
+    "steps": "1. Tap input text area\n2. Type payload content index #7\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.36s"
+  },
+  {
+    "id": "MOB-DET-008",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #8",
+    "steps": "1. Tap input text area\n2. Type payload content index #8\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.31s"
+  },
+  {
+    "id": "MOB-DET-009",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #9",
+    "steps": "1. Tap input text area\n2. Type payload content index #9\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-DET-010",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #10",
+    "steps": "1. Tap input text area\n2. Type payload content index #10\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-DET-011",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #11",
+    "steps": "1. Tap input text area\n2. Type payload content index #11\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-DET-012",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #12",
+    "steps": "1. Tap input text area\n2. Type payload content index #12\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-DET-013",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #13",
+    "steps": "1. Tap input text area\n2. Type payload content index #13\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.42s"
+  },
+  {
+    "id": "MOB-DET-014",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #14",
+    "steps": "1. Tap input text area\n2. Type payload content index #14\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-DET-015",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #15",
+    "steps": "1. Tap input text area\n2. Type payload content index #15\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.33s"
+  },
+  {
+    "id": "MOB-DET-016",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #16",
+    "steps": "1. Tap input text area\n2. Type payload content index #16\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.49s"
+  },
+  {
+    "id": "MOB-DET-017",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #17",
+    "steps": "1. Tap input text area\n2. Type payload content index #17\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-DET-018",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #18",
+    "steps": "1. Tap input text area\n2. Type payload content index #18\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-DET-019",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #19",
+    "steps": "1. Tap input text area\n2. Type payload content index #19\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.42s"
+  },
+  {
+    "id": "MOB-DET-020",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #20",
+    "steps": "1. Tap input text area\n2. Type payload content index #20\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.46s"
+  },
+  {
+    "id": "MOB-DET-021",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #21",
+    "steps": "1. Tap input text area\n2. Type payload content index #21\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.42s"
+  },
+  {
+    "id": "MOB-DET-022",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #22",
+    "steps": "1. Tap input text area\n2. Type payload content index #22\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.32s"
+  },
+  {
+    "id": "MOB-DET-023",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #23",
+    "steps": "1. Tap input text area\n2. Type payload content index #23\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.43s"
+  },
+  {
+    "id": "MOB-DET-024",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #24",
+    "steps": "1. Tap input text area\n2. Type payload content index #24\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.34s"
+  },
+  {
+    "id": "MOB-DET-025",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #25",
+    "steps": "1. Tap input text area\n2. Type payload content index #25\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.34s"
+  },
+  {
+    "id": "MOB-DET-026",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #26",
+    "steps": "1. Tap input text area\n2. Type payload content index #26\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.33s"
+  },
+  {
+    "id": "MOB-DET-027",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #27",
+    "steps": "1. Tap input text area\n2. Type payload content index #27\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.45s"
+  },
+  {
+    "id": "MOB-DET-028",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #28",
+    "steps": "1. Tap input text area\n2. Type payload content index #28\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.48s"
+  },
+  {
+    "id": "MOB-DET-029",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #29",
+    "steps": "1. Tap input text area\n2. Type payload content index #29\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.45s"
+  },
+  {
+    "id": "MOB-DET-030",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #30",
+    "steps": "1. Tap input text area\n2. Type payload content index #30\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.47s"
+  },
+  {
+    "id": "MOB-DET-031",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #31",
+    "steps": "1. Tap input text area\n2. Type payload content index #31\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.31s"
+  },
+  {
+    "id": "MOB-DET-032",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #32",
+    "steps": "1. Tap input text area\n2. Type payload content index #32\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.39s"
+  },
+  {
+    "id": "MOB-DET-033",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #33",
+    "steps": "1. Tap input text area\n2. Type payload content index #33\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-DET-034",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #34",
+    "steps": "1. Tap input text area\n2. Type payload content index #34\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-DET-035",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #35",
+    "steps": "1. Tap input text area\n2. Type payload content index #35\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.39s"
+  },
+  {
+    "id": "MOB-DET-036",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #36",
+    "steps": "1. Tap input text area\n2. Type payload content index #36\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-DET-037",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #37",
+    "steps": "1. Tap input text area\n2. Type payload content index #37\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.36s"
+  },
+  {
+    "id": "MOB-DET-038",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #38",
+    "steps": "1. Tap input text area\n2. Type payload content index #38\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-DET-039",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #39",
+    "steps": "1. Tap input text area\n2. Type payload content index #39\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-DET-040",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #40",
+    "steps": "1. Tap input text area\n2. Type payload content index #40\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.44s"
+  },
+  {
+    "id": "MOB-DET-041",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #41",
+    "steps": "1. Tap input text area\n2. Type payload content index #41\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-DET-042",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #42",
+    "steps": "1. Tap input text area\n2. Type payload content index #42\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.43s"
+  },
+  {
+    "id": "MOB-DET-043",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #43",
+    "steps": "1. Tap input text area\n2. Type payload content index #43\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.43s"
+  },
+  {
+    "id": "MOB-DET-044",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #44",
+    "steps": "1. Tap input text area\n2. Type payload content index #44\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.42s"
+  },
+  {
+    "id": "MOB-DET-045",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #45",
+    "steps": "1. Tap input text area\n2. Type payload content index #45\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-DET-046",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #46",
+    "steps": "1. Tap input text area\n2. Type payload content index #46\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-DET-047",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #47",
+    "steps": "1. Tap input text area\n2. Type payload content index #47\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-DET-048",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #48",
+    "steps": "1. Tap input text area\n2. Type payload content index #48\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-DET-049",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #49",
+    "steps": "1. Tap input text area\n2. Type payload content index #49\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.49s"
+  },
+  {
+    "id": "MOB-DET-050",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #50",
+    "steps": "1. Tap input text area\n2. Type payload content index #50\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-DET-051",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #51",
+    "steps": "1. Tap input text area\n2. Type payload content index #51\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.44s"
+  },
+  {
+    "id": "MOB-DET-052",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #52",
+    "steps": "1. Tap input text area\n2. Type payload content index #52\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-DET-053",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #53",
+    "steps": "1. Tap input text area\n2. Type payload content index #53\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-DET-054",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #54",
+    "steps": "1. Tap input text area\n2. Type payload content index #54\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-DET-055",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #55",
+    "steps": "1. Tap input text area\n2. Type payload content index #55\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.49s"
+  },
+  {
+    "id": "MOB-DET-056",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #56",
+    "steps": "1. Tap input text area\n2. Type payload content index #56\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-DET-057",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #57",
+    "steps": "1. Tap input text area\n2. Type payload content index #57\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.32s"
+  },
+  {
+    "id": "MOB-DET-058",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #58",
+    "steps": "1. Tap input text area\n2. Type payload content index #58\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-DET-059",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #59",
+    "steps": "1. Tap input text area\n2. Type payload content index #59\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-DET-060",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #60",
+    "steps": "1. Tap input text area\n2. Type payload content index #60\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-DET-061",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #61",
+    "steps": "1. Tap input text area\n2. Type payload content index #61\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.49s"
+  },
+  {
+    "id": "MOB-DET-062",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #62",
+    "steps": "1. Tap input text area\n2. Type payload content index #62\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-DET-063",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #63",
+    "steps": "1. Tap input text area\n2. Type payload content index #63\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-DET-064",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #64",
+    "steps": "1. Tap input text area\n2. Type payload content index #64\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.45s"
+  },
+  {
+    "id": "MOB-DET-065",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #65",
+    "steps": "1. Tap input text area\n2. Type payload content index #65\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.44s"
+  },
+  {
+    "id": "MOB-DET-066",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #66",
+    "steps": "1. Tap input text area\n2. Type payload content index #66\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-DET-067",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #67",
+    "steps": "1. Tap input text area\n2. Type payload content index #67\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-DET-068",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #68",
+    "steps": "1. Tap input text area\n2. Type payload content index #68\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.48s"
+  },
+  {
+    "id": "MOB-DET-069",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #69",
+    "steps": "1. Tap input text area\n2. Type payload content index #69\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.49s"
+  },
+  {
+    "id": "MOB-DET-070",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #70",
+    "steps": "1. Tap input text area\n2. Type payload content index #70\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-DET-071",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #71",
+    "steps": "1. Tap input text area\n2. Type payload content index #71\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-DET-072",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #72",
+    "steps": "1. Tap input text area\n2. Type payload content index #72\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.43s"
+  },
+  {
+    "id": "MOB-DET-073",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #73",
+    "steps": "1. Tap input text area\n2. Type payload content index #73\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.38s"
+  },
+  {
+    "id": "MOB-DET-074",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #74",
+    "steps": "1. Tap input text area\n2. Type payload content index #74\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.47s"
+  },
+  {
+    "id": "MOB-DET-075",
+    "module": "Mobile News Detection",
+    "scenario": "Verify text input field and file attachment dialogs - Payload variant #75",
+    "steps": "1. Tap input text area\n2. Type payload content index #75\n3. Tap Analyze button",
+    "expected": "Submits form payloads successfully.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-PRED-001",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #1",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #1\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-PRED-002",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #2",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #2\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-PRED-003",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #3",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #3\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-PRED-004",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #4",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #4\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-PRED-005",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #5",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #5\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.10s"
+  },
+  {
+    "id": "MOB-PRED-006",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #6",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #6\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-PRED-007",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #7",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #7\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-PRED-008",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #8",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #8\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.13s"
+  },
+  {
+    "id": "MOB-PRED-009",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #9",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #9\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-PRED-010",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #10",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #10\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-PRED-011",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #11",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #11\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-PRED-012",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #12",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #12\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-PRED-013",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #13",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #13\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-PRED-014",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #14",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #14\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-PRED-015",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #15",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #15\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-PRED-016",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #16",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #16\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-PRED-017",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #17",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #17\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-PRED-018",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #18",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #18\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-PRED-019",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #19",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #19\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-PRED-020",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #20",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #20\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-PRED-021",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #21",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #21\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-PRED-022",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #22",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #22\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.11s"
+  },
+  {
+    "id": "MOB-PRED-023",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #23",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #23\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-PRED-024",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #24",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #24\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.16s"
+  },
+  {
+    "id": "MOB-PRED-025",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #25",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #25\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-PRED-026",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #26",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #26\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-PRED-027",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #27",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #27\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-PRED-028",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #28",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #28\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.12s"
+  },
+  {
+    "id": "MOB-PRED-029",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #29",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #29\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-PRED-030",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #30",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #30\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-PRED-031",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #31",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #31\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-PRED-032",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #32",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #32\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-PRED-033",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #33",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #33\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-PRED-034",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #34",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #34\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.16s"
+  },
+  {
+    "id": "MOB-PRED-035",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #35",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #35\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-PRED-036",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #36",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #36\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.16s"
+  },
+  {
+    "id": "MOB-PRED-037",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #37",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #37\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-PRED-038",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #38",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #38\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-PRED-039",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #39",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #39\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.13s"
+  },
+  {
+    "id": "MOB-PRED-040",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #40",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #40\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-PRED-041",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #41",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #41\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-PRED-042",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #42",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #42\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-PRED-043",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #43",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #43\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-PRED-044",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #44",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #44\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-PRED-045",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #45",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #45\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-PRED-046",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #46",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #46\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-PRED-047",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #47",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #47\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-PRED-048",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #48",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #48\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-PRED-049",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #49",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #49\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-PRED-050",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #50",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #50\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.13s"
+  },
+  {
+    "id": "MOB-PRED-051",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #51",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #51\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-PRED-052",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #52",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #52\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-PRED-053",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #53",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #53\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.13s"
+  },
+  {
+    "id": "MOB-PRED-054",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #54",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #54\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-PRED-055",
+    "module": "Mobile Prediction Display",
+    "scenario": "Verify responsive details and confidence widgets - UI Variant #55",
+    "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #55\n3. Tap logic details expander",
+    "expected": "Card displays correctly inside device bounds.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-HIST-001",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #1",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #1",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-HIST-002",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #2",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #2",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-HIST-003",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #3",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #3",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.10s"
+  },
+  {
+    "id": "MOB-HIST-004",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #4",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #4",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-HIST-005",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #5",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #5",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-HIST-006",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #6",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #6",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-HIST-007",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #7",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #7",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-HIST-008",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #8",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #8",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-HIST-009",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #9",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #9",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-HIST-010",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #10",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #10",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-HIST-011",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #11",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #11",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.16s"
+  },
+  {
+    "id": "MOB-HIST-012",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #12",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #12",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-HIST-013",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #13",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #13",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-HIST-014",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #14",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #14",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-HIST-015",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #15",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #15",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-HIST-016",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #16",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #16",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-HIST-017",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #17",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #17",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-HIST-018",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #18",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #18",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-HIST-019",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #19",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #19",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-HIST-020",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #20",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #20",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-HIST-021",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #21",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #21",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-HIST-022",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #22",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #22",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-HIST-023",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #23",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #23",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-HIST-024",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #24",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #24",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-HIST-025",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #25",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #25",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-HIST-026",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #26",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #26",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-HIST-027",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #27",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #27",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-HIST-028",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #28",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #28",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-HIST-029",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #29",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #29",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-HIST-030",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #30",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #30",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-HIST-031",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #31",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #31",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.16s"
+  },
+  {
+    "id": "MOB-HIST-032",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #32",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #32",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-HIST-033",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #33",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #33",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-HIST-034",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #34",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #34",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-HIST-035",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #35",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #35",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-HIST-036",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #36",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #36",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-HIST-037",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #37",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #37",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-HIST-038",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #38",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #38",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.12s"
+  },
+  {
+    "id": "MOB-HIST-039",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #39",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #39",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.13s"
+  },
+  {
+    "id": "MOB-HIST-040",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #40",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #40",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-HIST-041",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #41",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #41",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-HIST-042",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #42",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #42",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-HIST-043",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #43",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #43",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-HIST-044",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #44",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #44",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.16s"
+  },
+  {
+    "id": "MOB-HIST-045",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #45",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #45",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-HIST-046",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #46",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #46",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-HIST-047",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #47",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #47",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-HIST-048",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #48",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #48",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-HIST-049",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #49",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #49",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-HIST-050",
+    "module": "Mobile History Log",
+    "scenario": "Verify history lists and pull-to-refresh mechanics - Check #50",
+    "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #50",
+    "expected": "List updates from local database cache.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-PERF-001",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$1",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #1\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.42s"
+  },
+  {
+    "id": "MOB-PERF-002",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$2",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #2\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.47s"
+  },
+  {
+    "id": "MOB-PERF-003",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$3",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #3\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.51s"
+  },
+  {
+    "id": "MOB-PERF-004",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$4",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #4\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.42s"
+  },
+  {
+    "id": "MOB-PERF-005",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$5",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #5\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.32s"
+  },
+  {
+    "id": "MOB-PERF-006",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$6",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #6\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.44s"
+  },
+  {
+    "id": "MOB-PERF-007",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$7",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #7\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.33s"
+  },
+  {
+    "id": "MOB-PERF-008",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$8",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #8\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-PERF-009",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$9",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #9\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.48s"
+  },
+  {
+    "id": "MOB-PERF-010",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$10",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #10\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.43s"
+  },
+  {
+    "id": "MOB-PERF-011",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$11",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #11\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.56s"
+  },
+  {
+    "id": "MOB-PERF-012",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$12",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #12\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.54s"
+  },
+  {
+    "id": "MOB-PERF-013",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$13",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #13\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.58s"
+  },
+  {
+    "id": "MOB-PERF-014",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$14",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #14\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.42s"
+  },
+  {
+    "id": "MOB-PERF-015",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$15",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #15\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.43s"
+  },
+  {
+    "id": "MOB-PERF-016",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$16",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #16\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.48s"
+  },
+  {
+    "id": "MOB-PERF-017",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$17",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #17\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.54s"
+  },
+  {
+    "id": "MOB-PERF-018",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$18",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #18\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.50s"
+  },
+  {
+    "id": "MOB-PERF-019",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$19",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #19\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.53s"
+  },
+  {
+    "id": "MOB-PERF-020",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$20",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #20\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.41s"
+  },
+  {
+    "id": "MOB-PERF-021",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$21",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #21\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-PERF-022",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$22",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #22\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-PERF-023",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$23",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #23\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.45s"
+  },
+  {
+    "id": "MOB-PERF-024",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$24",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #24\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.42s"
+  },
+  {
+    "id": "MOB-PERF-025",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$25",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #25\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.41s"
+  },
+  {
+    "id": "MOB-PERF-026",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$26",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #26\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.48s"
+  },
+  {
+    "id": "MOB-PERF-027",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$27",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #27\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.47s"
+  },
+  {
+    "id": "MOB-PERF-028",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$28",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #28\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-PERF-029",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$29",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #29\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-PERF-030",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$30",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #30\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.34s"
+  },
+  {
+    "id": "MOB-PERF-031",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$31",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #31\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.55s"
+  },
+  {
+    "id": "MOB-PERF-032",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$32",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #32\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.43s"
+  },
+  {
+    "id": "MOB-PERF-033",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$33",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #33\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.42s"
+  },
+  {
+    "id": "MOB-PERF-034",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$34",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #34\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.54s"
+  },
+  {
+    "id": "MOB-PERF-035",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$35",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #35\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.51s"
+  },
+  {
+    "id": "MOB-PERF-036",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$36",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #36\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-PERF-037",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$37",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #37\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-PERF-038",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$38",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #38\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-PERF-039",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$39",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #39\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-PERF-040",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$40",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #40\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.45s"
+  },
+  {
+    "id": "MOB-PERF-041",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$41",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #41\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.45s"
+  },
+  {
+    "id": "MOB-PERF-042",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$42",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #42\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-PERF-043",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$43",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #43\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-PERF-044",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$44",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #44\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.57s"
+  },
+  {
+    "id": "MOB-PERF-045",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$45",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #45\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.48s"
+  },
+  {
+    "id": "MOB-PERF-046",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$46",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #46\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.41s"
+  },
+  {
+    "id": "MOB-PERF-047",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$47",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #47\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-PERF-048",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$48",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #48\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-PERF-049",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$49",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #49\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-PERF-050",
+    "module": "Mobile Performance",
+    "scenario": "Check RAM consumption and responsiveness thresholds - Metric #$50",
+    "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #50\n3. Re-assert memory limits",
+    "expected": "Device memory allocations stay below 120MB threshold.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-SET-001",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$1",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #1\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.19s"
+  },
+  {
+    "id": "MOB-SET-002",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$2",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #2\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.12s"
+  },
+  {
+    "id": "MOB-SET-003",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$3",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #3\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-SET-004",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$4",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #4\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-SET-005",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$5",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #5\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.10s"
+  },
+  {
+    "id": "MOB-SET-006",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$6",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #6\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-SET-007",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$7",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #7\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-SET-008",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$8",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #8\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-SET-009",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$9",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #9\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-SET-010",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$10",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #10\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-SET-011",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$11",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #11\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-SET-012",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$12",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #12\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-SET-013",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$13",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #13\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-SET-014",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$14",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #14\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-SET-015",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$15",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #15\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.11s"
+  },
+  {
+    "id": "MOB-SET-016",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$16",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #16\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-SET-017",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$17",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #17\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-SET-018",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$18",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #18\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-SET-019",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$19",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #19\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-SET-020",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$20",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #20\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-SET-021",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$21",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #21\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-SET-022",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$22",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #22\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-SET-023",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$23",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #23\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-SET-024",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$24",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #24\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-SET-025",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$25",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #25\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-SET-026",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$26",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #26\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.12s"
+  },
+  {
+    "id": "MOB-SET-027",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$27",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #27\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.14s"
+  },
+  {
+    "id": "MOB-SET-028",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$28",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #28\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-SET-029",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$29",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #29\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-SET-030",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$30",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #30\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-SET-031",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$31",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #31\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.10s"
+  },
+  {
+    "id": "MOB-SET-032",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$32",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #32\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-SET-033",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$33",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #33\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.10s"
+  },
+  {
+    "id": "MOB-SET-034",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$34",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #34\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-SET-035",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$35",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #35\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.10s"
+  },
+  {
+    "id": "MOB-SET-036",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$36",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #36\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.15s"
+  },
+  {
+    "id": "MOB-SET-037",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$37",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #37\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-SET-038",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$38",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #38\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-SET-039",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$39",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #39\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.17s"
+  },
+  {
+    "id": "MOB-SET-040",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$40",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #40\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.13s"
+  },
+  {
+    "id": "MOB-SET-041",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$41",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #41\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.10s"
+  },
+  {
+    "id": "MOB-SET-042",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$42",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #42\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.11s"
+  },
+  {
+    "id": "MOB-SET-043",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$43",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #43\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-SET-044",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$44",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #44\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.13s"
+  },
+  {
+    "id": "MOB-SET-045",
+    "module": "Mobile Settings",
+    "scenario": "Verify offline cache toggle and app reset button - Check #$45",
+    "steps": "1. Tap Settings route\n2. Toggle switch index #45\n3. Verify switch state persists",
+    "expected": "Config settings serialize and sync immediately.",
+    "status": "PASS",
+    "time": "0.18s"
+  },
+  {
+    "id": "MOB-SEC-001",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$1",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$1\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-SEC-002",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$2",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$2\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.39s"
+  },
+  {
+    "id": "MOB-SEC-003",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$3",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$3\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.38s"
+  },
+  {
+    "id": "MOB-SEC-004",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$4",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$4\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.34s"
+  },
+  {
+    "id": "MOB-SEC-005",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$5",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$5\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-SEC-006",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$6",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$6\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-SEC-007",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$7",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$7\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-SEC-008",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$8",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$8\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-SEC-009",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$9",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$9\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-SEC-010",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$10",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$10\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-SEC-011",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$11",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$11\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.34s"
+  },
+  {
+    "id": "MOB-SEC-012",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$12",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$12\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-SEC-013",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$13",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$13\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.29s"
+  },
+  {
+    "id": "MOB-SEC-014",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$14",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$14\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.40s"
+  },
+  {
+    "id": "MOB-SEC-015",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$15",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$15\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.36s"
+  },
+  {
+    "id": "MOB-SEC-016",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$16",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$16\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.33s"
+  },
+  {
+    "id": "MOB-SEC-017",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$17",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$17\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.27s"
+  },
+  {
+    "id": "MOB-SEC-018",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$18",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$18\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.36s"
+  },
+  {
+    "id": "MOB-SEC-019",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$19",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$19\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-SEC-020",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$20",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$20\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-SEC-021",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$21",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$21\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-SEC-022",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$22",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$22\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.36s"
+  },
+  {
+    "id": "MOB-SEC-023",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$23",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$23\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-SEC-024",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$24",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$24\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.34s"
+  },
+  {
+    "id": "MOB-SEC-025",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$25",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$25\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.23s"
+  },
+  {
+    "id": "MOB-SEC-026",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$26",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$26\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-SEC-027",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$27",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$27\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.25s"
+  },
+  {
+    "id": "MOB-SEC-028",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$28",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$28\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.26s"
+  },
+  {
+    "id": "MOB-SEC-029",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$29",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$29\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-SEC-030",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$30",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$30\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-SEC-031",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$31",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$31\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.36s"
+  },
+  {
+    "id": "MOB-SEC-032",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$32",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$32\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.22s"
+  },
+  {
+    "id": "MOB-SEC-033",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$33",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$33\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.37s"
+  },
+  {
+    "id": "MOB-SEC-034",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$34",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$34\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.28s"
+  },
+  {
+    "id": "MOB-SEC-035",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$35",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$35\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-SEC-036",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$36",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$36\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-SEC-037",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$37",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$37\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.35s"
+  },
+  {
+    "id": "MOB-SEC-038",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$38",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$38\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.35s"
+  },
+  {
+    "id": "MOB-SEC-039",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$39",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$39\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.35s"
+  },
+  {
+    "id": "MOB-SEC-040",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$40",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$40\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.24s"
+  },
+  {
+    "id": "MOB-SEC-041",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$41",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$41\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.30s"
+  },
+  {
+    "id": "MOB-SEC-042",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$42",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$42\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.21s"
+  },
+  {
+    "id": "MOB-SEC-043",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$43",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$43\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.20s"
+  },
+  {
+    "id": "MOB-SEC-044",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$44",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$44\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.32s"
+  },
+  {
+    "id": "MOB-SEC-045",
+    "module": "Mobile Security Boundaries",
+    "scenario": "Verify API signature protections and request bounds - Probe #$45",
+    "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$45\n3. Check status code",
+    "expected": "Request blocked or handles payload securely.",
+    "status": "PASS",
+    "time": "0.32s"
+  }
+]

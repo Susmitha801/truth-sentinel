@@ -17,15 +17,15 @@ class AnalyzePage(BasePage):
     SAMPLE_2_BUTTON = (By.XPATH, "//button[contains(., 'Try sample 2')]")
     
     # URL Inputs
-    URL_INPUT = (By.XPATH, "//input[@placeholder='https://example.com/article' or @type='text']")
+    URL_INPUT = (By.ID, "url-input")
     
     # File Inputs
     FILE_INPUT = (By.XPATH, "//input[@type='file']")
     FILE_LOADED_LABEL = (By.XPATH, "//*[contains(text(), 'Loaded')]")
     
     # Action Trigger
-    ANALYZE_BUTTON = (By.XPATH, "//button[contains(., 'Analyze')]")
-    LOADING_SPINNER = (By.XPATH, "//*[contains(text(), 'Analyzing…') or contains(@class, 'spin')]")
+    ANALYZE_BUTTON = (By.ID, "analyze-btn")
+    LOADING_SPINNER = (By.XPATH, "//*[contains(text(), 'Analyzing') or contains(@class, 'spin')]")
     
     # Result Card
     RESULT_CONTAINER = (By.ID, "result")

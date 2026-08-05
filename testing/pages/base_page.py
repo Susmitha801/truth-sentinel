@@ -12,6 +12,8 @@ class BasePage:
 
     def navigate_to(self, url):
         self.driver.get(url)
+        import time
+        time.sleep(0.5)
 
     def find_element(self, locator):
         return WebDriverWait(self.driver, self.timeout).until(

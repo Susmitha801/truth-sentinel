@@ -1,5 +1,48 @@
-// Mock AI analyzer — deterministic pseudo-analysis based on text heuristics.
-// Replace with real ML/NLP backend later.
+// FakeNews Shield — Analyzer
+// Primary: FastAPI ML backend at http://localhost:8000
+// Fallback: Local heuristic analysis (used when backend is offline)
+
+const BACKEND_URL = "http://localhost:8000";
+
+/** Call the Python FastAPI backend for analysis */
+async function analyzeViaBackend(input: {
+  source: "text" | "url" | "file";
+  text: string;
+  title?: string;
+}): Promise<AnalysisResult | null> {
+  try {
+    const res = await fetch(`${BACKEND_URL}/api/analyze`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text: input.text, source: input.source, title: input.title }),
+      signal: AbortSignal.timeout(8000), // 8-second timeout
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      console.warn("Backend error:", res.status, err);
+      return null;
+    }
+    const data = await res.json();
+    // Normalize sentiment label casing from backend
+    if (data.sentiment?.label) {
+      data.sentiment.label = data.sentiment.label.toLowerCase() as "positive" | "neutral" | "negative";
+    }
+    return data as AnalysisResult;
+  } catch (err) {
+    console.warn("Backend unreachable, using local analysis:", err);
+    return null;
+  }
+}
+
+/** Check if the backend is online */
+export async function checkBackendStatus(): Promise<boolean> {
+  try {
+    const res = await fetch(`${BACKEND_URL}/health`, { signal: AbortSignal.timeout(3000) });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
 
 export type Verdict = "real" | "fake" | "suspicious";
 
@@ -61,11 +104,20 @@ function extractKeywords(text: string): string[] {
     .map(([w]) => w);
 }
 
-export function analyze(input: {
+export async function analyze(input: {
   source: "text" | "url" | "file";
   text: string;
   title?: string;
-}): AnalysisResult {
+}): Promise<AnalysisResult> {
+  // ── Try FastAPI backend first ─────────────────────────────────────────────
+  const backendResult = await analyzeViaBackend(input);
+  if (backendResult) {
+    console.info("✅ Analysis via FastAPI backend");
+    return backendResult;
+  }
+
+  // ── Fallback: local heuristic analysis ───────────────────────────────────
+  console.info("⚠️  Backend offline – using local heuristic analysis");
   const text = input.text.trim();
   const lower = text.toLowerCase();
   const found = SENSATIONAL.filter((p) => lower.includes(p));

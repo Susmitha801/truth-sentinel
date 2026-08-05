@@ -1,0 +1,11 @@
+{
+  "name": "node-selenium-tests",
+  "version": "1.0.0",
+  "description": "Node.js Selenium E2E Web Test Suite for FakeNews Shield",
+  "main": "test_runner.js",
+  "type": "module",
+  "dependencies": {
+    "selenium-webdriver": "^4.20.0",
+    "exceljs": "^4.4.0"
+  }
+}

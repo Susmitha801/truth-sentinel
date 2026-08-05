@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Brain, Database, Lock, Layers, Sparkles, Globe } from "lucide-react";
-import { SiteNav, SiteFooter } from "@/components/site-nav";
+import { DashboardLayout } from "@/components/dashboard-layout";
 import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/about")({
@@ -26,20 +26,19 @@ const pipeline = [
 
 function AboutPage() {
   return (
-    <div className="min-h-screen">
-      <SiteNav />
-      <main className="mx-auto max-w-4xl px-4 pb-20 pt-10 sm:px-6">
+    <DashboardLayout>
+      <div className="mx-auto max-w-4xl space-y-6">
         <div className="text-center">
           <h1 className="font-display text-4xl font-bold sm:text-5xl">
             About <span className="gradient-text">Fake News Shield</span>
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
+          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground text-sm">
             A research-grade AI tool that empowers readers, journalists, and educators to
             spot misinformation in seconds — with transparent reasoning.
           </p>
         </div>
 
-        <div className="mt-10 grid gap-4 sm:grid-cols-2">
+        <div className="grid gap-4 sm:grid-cols-2">
           {pipeline.map((p) => (
             <div key={p.title} className="glass rounded-2xl p-6">
               <div className="grid h-10 w-10 place-items-center rounded-xl bg-[image:var(--gradient-cyber)] text-primary-foreground">
@@ -51,8 +50,8 @@ function AboutPage() {
           ))}
         </div>
 
-        <div className="mt-10 glass-strong rounded-3xl p-8">
-          <h2 className="font-display text-2xl font-bold">Capabilities</h2>
+        <div className="glass-strong rounded-3xl p-8">
+          <h2 className="font-display text-2xl font-bold">Capabilities & Stack</h2>
           <ul className="mt-4 grid gap-3 sm:grid-cols-2">
             {[
               { icon: Brain, label: "BERT-based text classification" },
@@ -84,8 +83,7 @@ function AboutPage() {
             </Button>
           </div>
         </div>
-      </main>
-      <SiteFooter />
-    </div>
+      </div>
+    </DashboardLayout>
   );
 }

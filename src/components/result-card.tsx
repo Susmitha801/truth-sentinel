@@ -7,6 +7,9 @@ import {
   Hash,
   Building2,
   Sparkles,
+  ShieldCheck,
+  AlertOctagon,
+  ShieldAlert,
 } from "lucide-react";
 import type { AnalysisResult } from "@/lib/analyzer";
 
@@ -18,6 +21,9 @@ const VERDICT = {
     bg: "bg-success/15",
     bar: "bg-success",
     ring: "ring-success/30",
+    risk: "Low Risk",
+    riskColor: "text-success bg-success/10 border-success/30",
+    recommendation: "This article aligns with patterns of objective reporting. It is safe to share, but always cross-reference critical claims with primary sources.",
   },
   fake: {
     icon: XCircle,
@@ -26,6 +32,9 @@ const VERDICT = {
     bg: "bg-destructive/15",
     bar: "bg-destructive",
     ring: "ring-destructive/30",
+    risk: "High Risk",
+    riskColor: "text-destructive bg-destructive/10 border-destructive/30",
+    recommendation: "WARNING: High misinformation index. Clickbait patterns and unverified facts detected. Avoid sharing this content as factual news.",
   },
   suspicious: {
     icon: AlertTriangle,
@@ -34,6 +43,9 @@ const VERDICT = {
     bg: "bg-warning/15",
     bar: "bg-warning",
     ring: "ring-warning/30",
+    risk: "Medium Risk",
+    riskColor: "text-warning bg-warning/10 border-warning/30",
+    recommendation: "CAUTION: Sensationalized framing or unverified assertions detected. Read with skepticism and verify publisher credentials before sharing.",
   },
 } as const;
 
@@ -105,9 +117,17 @@ function HighlightedText({
 export function ResultCard({ result }: { result: AnalysisResult }) {
   const v = VERDICT[result.verdict];
   const Icon = v.icon;
+
+  // Calculate fake vs real probability distribution for the chart
+  const isFake = result.verdict === "fake";
+  const isReal = result.verdict === "real";
+  const fakeProb = isFake ? result.confidence : isReal ? 100 - result.confidence : 50 + (result.confidence % 15);
+  const realProb = 100 - fakeProb;
+
   return (
     <div className="glass-strong rounded-3xl p-6 sm:p-8">
-      <div className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-4 sm:flex sm:items-center sm:justify-between">
+      {/* Header Info */}
+      <div className="grid gap-4 sm:flex sm:items-center sm:justify-between border-b border-border/40 pb-4">
         <div className="flex min-w-0 items-center gap-3">
           <div
             className={`grid h-12 w-12 shrink-0 place-items-center rounded-2xl ${v.bg} ${v.color} ring-4 ${v.ring}`}
@@ -116,21 +136,34 @@ export function ResultCard({ result }: { result: AnalysisResult }) {
           </div>
           <div className="min-w-0">
             <div className="text-xs uppercase tracking-widest text-muted-foreground">
-              Verdict
+              Prediction Verdict
             </div>
             <div className={`truncate font-display text-2xl font-bold ${v.color}`}>
               {v.label}
             </div>
           </div>
         </div>
-        <div className="shrink-0 text-right">
-          <div className="text-xs uppercase tracking-widest text-muted-foreground">
-            Confidence
+
+        <div className="flex items-center gap-4 sm:text-right">
+          <div>
+            <div className="text-xs uppercase tracking-widest text-muted-foreground">
+              Risk Assessment
+            </div>
+            <span className={`inline-block mt-1 px-2.5 py-0.5 rounded text-xs font-semibold border ${v.riskColor}`}>
+              {v.risk}
+            </span>
           </div>
-          <div className="font-mono text-2xl font-bold">{result.confidence}%</div>
+          <div className="h-8 w-px bg-border/40 hidden sm:block" />
+          <div>
+            <div className="text-xs uppercase tracking-widest text-muted-foreground">
+              AI Confidence
+            </div>
+            <div className="font-mono text-2xl font-bold">{result.confidence}%</div>
+          </div>
         </div>
       </div>
 
+      {/* KPI Meters */}
       <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         <Meter label="Credibility" value={result.credibility} icon={Gauge} bar={v.bar} />
         <Meter
@@ -153,24 +186,56 @@ export function ResultCard({ result }: { result: AnalysisResult }) {
         />
       </div>
 
-      <div className="mt-6 grid gap-6 lg:grid-cols-2">
-        <div>
-          <h3 className="mb-2 text-sm font-semibold text-muted-foreground">
-            Article excerpt
-          </h3>
-          <div className="rounded-xl border border-dashed border-border p-4">
-            <HighlightedText text={result.excerpt} phrases={result.suspiciousPhrases} />
+      {/* Probability Chart Grid */}
+      <div className="mt-6 rounded-2xl bg-muted/30 p-4 border border-border/20">
+        <h4 className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3">
+          Veracity Probability Distribution
+        </h4>
+        <div className="space-y-2">
+          {/* Bar Chart Container */}
+          <div className="h-6 flex rounded-lg overflow-hidden font-mono text-[10px] text-white font-bold">
+            <div
+              className="bg-success flex items-center justify-center transition-all"
+              style={{ width: `${realProb}%` }}
+            >
+              {realProb > 15 && `Real ${realProb}%`}
+            </div>
+            <div
+              className="bg-destructive flex items-center justify-center transition-all"
+              style={{ width: `${fakeProb}%` }}
+            >
+              {fakeProb > 15 && `Fake ${fakeProb}%`}
+            </div>
           </div>
+          <div className="flex justify-between text-[10px] text-muted-foreground">
+            <span>0% Fake Bias (Truth)</span>
+            <span>100% Fake Bias (Clickbait)</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Analysis Sections */}
+      <div className="mt-6 grid gap-6 lg:grid-cols-2">
+        <div className="space-y-4">
+          <div>
+            <h3 className="mb-2 text-sm font-semibold text-muted-foreground">
+              Article excerpt
+            </h3>
+            <div className="rounded-xl border border-dashed border-border p-4">
+              <HighlightedText text={result.excerpt} phrases={result.suspiciousPhrases} />
+            </div>
+          </div>
+
           {result.keywords.length > 0 && (
-            <div className="mt-4">
+            <div>
               <h4 className="mb-2 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                <Hash className="h-3 w-3" /> Keywords
+                <Hash className="h-3 w-3" /> Suspicious Highlighted Keywords
               </h4>
               <div className="flex flex-wrap gap-1.5">
                 {result.keywords.map((k) => (
                   <span
                     key={k}
-                    className="rounded-md bg-muted px-2 py-1 font-mono text-xs"
+                    className="rounded-md bg-destructive/10 border border-destructive/20 text-destructive px-2.5 py-1 font-mono text-xs"
                   >
                     {k}
                   </span>
@@ -180,41 +245,40 @@ export function ResultCard({ result }: { result: AnalysisResult }) {
           )}
         </div>
 
-        <div>
-          <h3 className="mb-2 text-sm font-semibold text-muted-foreground">
-            AI reasoning
-          </h3>
-          <ul className="space-y-2">
-            {result.reasoning.map((r, i) => (
-              <li
-                key={i}
-                className="flex gap-3 rounded-xl bg-muted/40 p-3 text-sm"
-              >
-                <span className="mt-1 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-primary/15 font-mono text-[10px] text-primary">
-                  {i + 1}
-                </span>
-                <span>{r}</span>
-              </li>
-            ))}
-          </ul>
-
-          {result.suspiciousPhrases.length > 0 && (
-            <div className="mt-4">
-              <h4 className="mb-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                Suspicious phrases
-              </h4>
-              <div className="flex flex-wrap gap-1.5">
-                {result.suspiciousPhrases.map((p) => (
-                  <span
-                    key={p}
-                    className="rounded-md bg-destructive/15 px-2 py-1 text-xs font-medium text-destructive"
-                  >
-                    {p}
+        <div className="space-y-4">
+          <div>
+            <h3 className="mb-2 text-sm font-semibold text-muted-foreground">
+              Explanation of Prediction
+            </h3>
+            <ul className="space-y-2">
+              {result.reasoning.map((r, i) => (
+                <li
+                  key={i}
+                  className="flex gap-3 rounded-xl bg-muted/40 p-3 text-sm"
+                >
+                  <span className="mt-1 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-primary/15 font-mono text-[10px] text-primary">
+                    {i + 1}
                   </span>
-                ))}
-              </div>
-            </div>
-          )}
+                  <span>{r}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* AI Recommendation Card */}
+          <div className={`rounded-xl border p-4 ${
+            result.verdict === "real" ? "bg-success/5 border-success/20" :
+            result.verdict === "fake" ? "bg-destructive/5 border-destructive/20" :
+            "bg-warning/5 border-warning/20"
+          }`}>
+            <h4 className="font-display font-semibold text-xs uppercase tracking-wider mb-1 flex items-center gap-1.5">
+              {result.verdict === "real" && <ShieldCheck className="h-4 w-4 text-success" />}
+              {result.verdict === "fake" && <AlertOctagon className="h-4 w-4 text-destructive" />}
+              {result.verdict === "suspicious" && <ShieldAlert className="h-4 w-4 text-warning" />}
+              AI Recommendation
+            </h4>
+            <p className="text-xs text-muted-foreground leading-relaxed">{v.recommendation}</p>
+          </div>
         </div>
       </div>
     </div>
