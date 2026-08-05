@@ -6,7 +6,7 @@
     "steps": "1. Open app\n2. Fill login details #1\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.39s"
   },
   {
     "id": "MOB-AUTH-002",
@@ -15,7 +15,7 @@
     "steps": "1. Open app\n2. Fill login details #2\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.10s"
   },
   {
     "id": "MOB-AUTH-003",
@@ -24,7 +24,7 @@
     "steps": "1. Open app\n2. Fill login details #3\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-AUTH-004",
@@ -33,7 +33,7 @@
     "steps": "1. Open app\n2. Fill login details #4\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-AUTH-005",
@@ -42,7 +42,7 @@
     "steps": "1. Open app\n2. Fill login details #5\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-AUTH-006",
@@ -51,7 +51,7 @@
     "steps": "1. Open app\n2. Fill login details #6\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-AUTH-007",
@@ -69,7 +69,7 @@
     "steps": "1. Open app\n2. Fill login details #8\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.37s"
   },
   {
     "id": "MOB-AUTH-009",
@@ -78,7 +78,7 @@
     "steps": "1. Open app\n2. Fill login details #9\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.12s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-AUTH-010",
@@ -87,7 +87,7 @@
     "steps": "1. Open app\n2. Fill login details #10\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-AUTH-011",
@@ -96,7 +96,7 @@
     "steps": "1. Open app\n2. Fill login details #11\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.32s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-AUTH-012",
@@ -105,7 +105,7 @@
     "steps": "1. Open app\n2. Fill login details #12\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.39s"
+    "time": "0.11s"
   },
   {
     "id": "MOB-AUTH-013",
@@ -114,7 +114,7 @@
     "steps": "1. Open app\n2. Fill login details #13\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-AUTH-014",
@@ -123,7 +123,7 @@
     "steps": "1. Open app\n2. Fill login details #14\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.31s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-AUTH-015",
@@ -132,7 +132,7 @@
     "steps": "1. Open app\n2. Fill login details #15\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.37s"
+    "time": "0.35s"
   },
   {
     "id": "MOB-AUTH-016",
@@ -141,7 +141,7 @@
     "steps": "1. Open app\n2. Fill login details #16\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.39s"
+    "time": "0.10s"
   },
   {
     "id": "MOB-AUTH-017",
@@ -150,7 +150,7 @@
     "steps": "1. Open app\n2. Fill login details #17\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-AUTH-018",
@@ -159,7 +159,7 @@
     "steps": "1. Open app\n2. Fill login details #18\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.11s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-AUTH-019",
@@ -168,7 +168,7 @@
     "steps": "1. Open app\n2. Fill login details #19\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.37s"
   },
   {
     "id": "MOB-AUTH-020",
@@ -177,7 +177,7 @@
     "steps": "1. Open app\n2. Fill login details #20\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-AUTH-021",
@@ -186,7 +186,7 @@
     "steps": "1. Open app\n2. Fill login details #21\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-AUTH-022",
@@ -195,7 +195,7 @@
     "steps": "1. Open app\n2. Fill login details #22\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-AUTH-023",
@@ -204,7 +204,7 @@
     "steps": "1. Open app\n2. Fill login details #23\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-AUTH-024",
@@ -213,7 +213,7 @@
     "steps": "1. Open app\n2. Fill login details #24\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.38s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-AUTH-025",
@@ -222,7 +222,7 @@
     "steps": "1. Open app\n2. Fill login details #25\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.37s"
+    "time": "0.15s"
   },
   {
     "id": "MOB-AUTH-026",
@@ -231,7 +231,7 @@
     "steps": "1. Open app\n2. Fill login details #26\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.11s"
   },
   {
     "id": "MOB-AUTH-027",
@@ -240,7 +240,7 @@
     "steps": "1. Open app\n2. Fill login details #27\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.33s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-AUTH-028",
@@ -249,7 +249,7 @@
     "steps": "1. Open app\n2. Fill login details #28\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.32s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-AUTH-029",
@@ -258,7 +258,7 @@
     "steps": "1. Open app\n2. Fill login details #29\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-AUTH-030",
@@ -267,7 +267,7 @@
     "steps": "1. Open app\n2. Fill login details #30\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-AUTH-031",
@@ -276,7 +276,7 @@
     "steps": "1. Open app\n2. Fill login details #31\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-AUTH-032",
@@ -285,7 +285,7 @@
     "steps": "1. Open app\n2. Fill login details #32\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-AUTH-033",
@@ -294,7 +294,7 @@
     "steps": "1. Open app\n2. Fill login details #33\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.13s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-AUTH-034",
@@ -303,7 +303,7 @@
     "steps": "1. Open app\n2. Fill login details #34\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.36s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-AUTH-035",
@@ -312,7 +312,7 @@
     "steps": "1. Open app\n2. Fill login details #35\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.32s"
   },
   {
     "id": "MOB-AUTH-036",
@@ -321,7 +321,7 @@
     "steps": "1. Open app\n2. Fill login details #36\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.14s"
   },
   {
     "id": "MOB-AUTH-037",
@@ -330,7 +330,7 @@
     "steps": "1. Open app\n2. Fill login details #37\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-AUTH-038",
@@ -339,7 +339,7 @@
     "steps": "1. Open app\n2. Fill login details #38\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-AUTH-039",
@@ -348,7 +348,7 @@
     "steps": "1. Open app\n2. Fill login details #39\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-AUTH-040",
@@ -357,7 +357,7 @@
     "steps": "1. Open app\n2. Fill login details #40\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.36s"
   },
   {
     "id": "MOB-AUTH-041",
@@ -366,7 +366,7 @@
     "steps": "1. Open app\n2. Fill login details #41\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.37s"
+    "time": "0.33s"
   },
   {
     "id": "MOB-AUTH-042",
@@ -375,7 +375,7 @@
     "steps": "1. Open app\n2. Fill login details #42\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-AUTH-043",
@@ -384,7 +384,7 @@
     "steps": "1. Open app\n2. Fill login details #43\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.37s"
+    "time": "0.32s"
   },
   {
     "id": "MOB-AUTH-044",
@@ -393,7 +393,7 @@
     "steps": "1. Open app\n2. Fill login details #44\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.38s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-AUTH-045",
@@ -402,7 +402,7 @@
     "steps": "1. Open app\n2. Fill login details #45\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-AUTH-046",
@@ -411,7 +411,7 @@
     "steps": "1. Open app\n2. Fill login details #46\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.14s"
   },
   {
     "id": "MOB-AUTH-047",
@@ -420,7 +420,7 @@
     "steps": "1. Open app\n2. Fill login details #47\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.32s"
   },
   {
     "id": "MOB-AUTH-048",
@@ -429,7 +429,7 @@
     "steps": "1. Open app\n2. Fill login details #48\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.38s"
   },
   {
     "id": "MOB-AUTH-049",
@@ -438,7 +438,7 @@
     "steps": "1. Open app\n2. Fill login details #49\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-AUTH-050",
@@ -447,7 +447,7 @@
     "steps": "1. Open app\n2. Fill login details #50\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-AUTH-051",
@@ -456,7 +456,7 @@
     "steps": "1. Open app\n2. Fill login details #51\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.13s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-AUTH-052",
@@ -465,7 +465,7 @@
     "steps": "1. Open app\n2. Fill login details #52\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-AUTH-053",
@@ -474,7 +474,7 @@
     "steps": "1. Open app\n2. Fill login details #53\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-AUTH-054",
@@ -483,7 +483,7 @@
     "steps": "1. Open app\n2. Fill login details #54\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-AUTH-055",
@@ -492,7 +492,7 @@
     "steps": "1. Open app\n2. Fill login details #55\n3. Tap submit button",
     "expected": "Authenticates and routes to home dashboard correctly.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-NAV-001",
@@ -501,7 +501,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #1\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-NAV-002",
@@ -510,7 +510,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #2\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.12s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-NAV-003",
@@ -528,7 +528,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #4\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.14s"
   },
   {
     "id": "MOB-NAV-005",
@@ -537,7 +537,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #5\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.12s"
   },
   {
     "id": "MOB-NAV-006",
@@ -546,7 +546,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #6\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.16s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-NAV-007",
@@ -555,7 +555,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #7\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-NAV-008",
@@ -564,7 +564,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #8\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-NAV-009",
@@ -573,7 +573,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #9\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-NAV-010",
@@ -582,7 +582,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #10\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-NAV-011",
@@ -591,7 +591,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #11\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.15s"
   },
   {
     "id": "MOB-NAV-012",
@@ -600,7 +600,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #12\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.10s"
   },
   {
     "id": "MOB-NAV-013",
@@ -609,7 +609,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #13\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-NAV-014",
@@ -618,7 +618,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #14\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-NAV-015",
@@ -627,7 +627,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #15\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.13s"
+    "time": "0.18s"
   },
   {
     "id": "MOB-NAV-016",
@@ -636,7 +636,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #16\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-NAV-017",
@@ -645,7 +645,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #17\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-NAV-018",
@@ -654,7 +654,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #18\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-NAV-019",
@@ -663,7 +663,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #19\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.12s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-NAV-020",
@@ -672,7 +672,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #20\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-NAV-021",
@@ -681,7 +681,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #21\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-NAV-022",
@@ -690,7 +690,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #22\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.10s"
   },
   {
     "id": "MOB-NAV-023",
@@ -699,7 +699,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #23\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.12s"
   },
   {
     "id": "MOB-NAV-024",
@@ -708,7 +708,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #24\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-NAV-025",
@@ -717,7 +717,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #25\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-NAV-026",
@@ -726,7 +726,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #26\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.12s"
   },
   {
     "id": "MOB-NAV-027",
@@ -735,7 +735,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #27\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.11s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-NAV-028",
@@ -744,7 +744,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #28\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-NAV-029",
@@ -753,7 +753,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #29\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.14s"
   },
   {
     "id": "MOB-NAV-030",
@@ -762,7 +762,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #30\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.11s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-NAV-031",
@@ -771,7 +771,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #31\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-NAV-032",
@@ -780,7 +780,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #32\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-NAV-033",
@@ -789,7 +789,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #33\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-NAV-034",
@@ -798,7 +798,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #34\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-NAV-035",
@@ -807,7 +807,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #35\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.10s"
+    "time": "0.16s"
   },
   {
     "id": "MOB-NAV-036",
@@ -816,7 +816,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #36\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-NAV-037",
@@ -825,7 +825,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #37\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-NAV-038",
@@ -834,7 +834,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #38\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.11s"
   },
   {
     "id": "MOB-NAV-039",
@@ -843,7 +843,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #39\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.18s"
   },
   {
     "id": "MOB-NAV-040",
@@ -852,7 +852,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #40\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.14s"
   },
   {
     "id": "MOB-NAV-041",
@@ -861,7 +861,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #41\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.15s"
   },
   {
     "id": "MOB-NAV-042",
@@ -870,7 +870,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #42\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.11s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-NAV-043",
@@ -879,7 +879,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #43\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-NAV-044",
@@ -888,7 +888,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #44\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-NAV-045",
@@ -897,7 +897,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #45\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.18s"
   },
   {
     "id": "MOB-NAV-046",
@@ -906,7 +906,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #46\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-NAV-047",
@@ -915,7 +915,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #47\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-NAV-048",
@@ -924,7 +924,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #48\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.15s"
   },
   {
     "id": "MOB-NAV-049",
@@ -933,7 +933,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #49\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-NAV-050",
@@ -942,7 +942,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #50\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-NAV-051",
@@ -951,7 +951,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #51\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-NAV-052",
@@ -960,7 +960,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #52\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.14s"
   },
   {
     "id": "MOB-NAV-053",
@@ -969,7 +969,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #53\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-NAV-054",
@@ -978,7 +978,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #54\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-NAV-055",
@@ -987,7 +987,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #55\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-NAV-056",
@@ -996,7 +996,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #56\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.16s"
   },
   {
     "id": "MOB-NAV-057",
@@ -1005,7 +1005,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #57\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-NAV-058",
@@ -1014,7 +1014,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #58\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-NAV-059",
@@ -1023,7 +1023,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #59\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.10s"
+    "time": "0.11s"
   },
   {
     "id": "MOB-NAV-060",
@@ -1032,7 +1032,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #60\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.15s"
   },
   {
     "id": "MOB-NAV-061",
@@ -1041,7 +1041,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #61\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-NAV-062",
@@ -1050,7 +1050,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #62\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.16s"
   },
   {
     "id": "MOB-NAV-063",
@@ -1059,7 +1059,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #63\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.14s"
   },
   {
     "id": "MOB-NAV-064",
@@ -1068,7 +1068,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #64\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-NAV-065",
@@ -1077,7 +1077,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #65\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-NAV-066",
@@ -1086,7 +1086,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #66\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.16s"
+    "time": "0.12s"
   },
   {
     "id": "MOB-NAV-067",
@@ -1095,7 +1095,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #67\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-NAV-068",
@@ -1104,7 +1104,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #68\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.16s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-NAV-069",
@@ -1113,7 +1113,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #69\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-NAV-070",
@@ -1122,7 +1122,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #70\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.12s"
   },
   {
     "id": "MOB-NAV-071",
@@ -1131,7 +1131,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #71\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-NAV-072",
@@ -1140,7 +1140,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #72\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-NAV-073",
@@ -1149,7 +1149,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #73\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.16s"
   },
   {
     "id": "MOB-NAV-074",
@@ -1158,7 +1158,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #74\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-NAV-075",
@@ -1167,7 +1167,7 @@
     "steps": "1. Swipe to open navigation drawer\n2. Tap sidebar link #75\n3. Wait for view transition",
     "expected": "Layout repaints without overlay errors.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-DET-001",
@@ -1176,7 +1176,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #1\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.31s"
   },
   {
     "id": "MOB-DET-002",
@@ -1185,7 +1185,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #2\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-DET-003",
@@ -1194,7 +1194,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #3\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.48s"
   },
   {
     "id": "MOB-DET-004",
@@ -1203,7 +1203,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #4\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.39s"
   },
   {
     "id": "MOB-DET-005",
@@ -1212,7 +1212,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #5\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.38s"
   },
   {
     "id": "MOB-DET-006",
@@ -1221,7 +1221,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #6\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.42s"
   },
   {
     "id": "MOB-DET-007",
@@ -1230,7 +1230,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #7\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.36s"
+    "time": "0.38s"
   },
   {
     "id": "MOB-DET-008",
@@ -1239,7 +1239,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #8\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.31s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-DET-009",
@@ -1248,7 +1248,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #9\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-DET-010",
@@ -1257,7 +1257,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #10\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-DET-011",
@@ -1266,7 +1266,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #11\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.50s"
   },
   {
     "id": "MOB-DET-012",
@@ -1275,7 +1275,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #12\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-DET-013",
@@ -1284,7 +1284,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #13\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.42s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-DET-014",
@@ -1293,7 +1293,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #14\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-DET-015",
@@ -1302,7 +1302,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #15\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.33s"
+    "time": "0.40s"
   },
   {
     "id": "MOB-DET-016",
@@ -1311,7 +1311,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #16\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.49s"
+    "time": "0.41s"
   },
   {
     "id": "MOB-DET-017",
@@ -1320,7 +1320,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #17\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.32s"
   },
   {
     "id": "MOB-DET-018",
@@ -1329,7 +1329,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #18\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.46s"
   },
   {
     "id": "MOB-DET-019",
@@ -1338,7 +1338,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #19\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.42s"
+    "time": "0.41s"
   },
   {
     "id": "MOB-DET-020",
@@ -1347,7 +1347,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #20\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.46s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-DET-021",
@@ -1356,7 +1356,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #21\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.42s"
+    "time": "0.45s"
   },
   {
     "id": "MOB-DET-022",
@@ -1365,7 +1365,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #22\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.32s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-DET-023",
@@ -1374,7 +1374,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #23\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.43s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-DET-024",
@@ -1383,7 +1383,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #24\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.34s"
+    "time": "0.31s"
   },
   {
     "id": "MOB-DET-025",
@@ -1392,7 +1392,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #25\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.34s"
+    "time": "0.46s"
   },
   {
     "id": "MOB-DET-026",
@@ -1401,7 +1401,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #26\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.33s"
+    "time": "0.35s"
   },
   {
     "id": "MOB-DET-027",
@@ -1410,7 +1410,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #27\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.45s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-DET-028",
@@ -1419,7 +1419,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #28\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.48s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-DET-029",
@@ -1428,7 +1428,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #29\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.45s"
+    "time": "0.48s"
   },
   {
     "id": "MOB-DET-030",
@@ -1437,7 +1437,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #30\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.47s"
+    "time": "0.43s"
   },
   {
     "id": "MOB-DET-031",
@@ -1446,7 +1446,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #31\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.31s"
+    "time": "0.44s"
   },
   {
     "id": "MOB-DET-032",
@@ -1455,7 +1455,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #32\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.39s"
+    "time": "0.40s"
   },
   {
     "id": "MOB-DET-033",
@@ -1464,7 +1464,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #33\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.37s"
+    "time": "0.41s"
   },
   {
     "id": "MOB-DET-034",
@@ -1473,7 +1473,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #34\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.37s"
+    "time": "0.48s"
   },
   {
     "id": "MOB-DET-035",
@@ -1482,7 +1482,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #35\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.39s"
+    "time": "0.34s"
   },
   {
     "id": "MOB-DET-036",
@@ -1491,7 +1491,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #36\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.46s"
   },
   {
     "id": "MOB-DET-037",
@@ -1500,7 +1500,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #37\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.36s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-DET-038",
@@ -1509,7 +1509,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #38\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.43s"
   },
   {
     "id": "MOB-DET-039",
@@ -1518,7 +1518,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #39\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-DET-040",
@@ -1527,7 +1527,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #40\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.44s"
+    "time": "0.40s"
   },
   {
     "id": "MOB-DET-041",
@@ -1536,7 +1536,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #41\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-DET-042",
@@ -1545,7 +1545,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #42\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.43s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-DET-043",
@@ -1554,7 +1554,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #43\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.43s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-DET-044",
@@ -1563,7 +1563,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #44\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.42s"
+    "time": "0.48s"
   },
   {
     "id": "MOB-DET-045",
@@ -1572,7 +1572,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #45\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.43s"
   },
   {
     "id": "MOB-DET-046",
@@ -1581,7 +1581,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #46\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-DET-047",
@@ -1590,7 +1590,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #47\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.45s"
   },
   {
     "id": "MOB-DET-048",
@@ -1599,7 +1599,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #48\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.48s"
   },
   {
     "id": "MOB-DET-049",
@@ -1608,7 +1608,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #49\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.49s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-DET-050",
@@ -1617,7 +1617,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #50\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.49s"
   },
   {
     "id": "MOB-DET-051",
@@ -1626,7 +1626,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #51\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.44s"
+    "time": "0.46s"
   },
   {
     "id": "MOB-DET-052",
@@ -1635,7 +1635,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #52\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.37s"
+    "time": "0.44s"
   },
   {
     "id": "MOB-DET-053",
@@ -1644,7 +1644,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #53\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.37s"
+    "time": "0.47s"
   },
   {
     "id": "MOB-DET-054",
@@ -1653,7 +1653,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #54\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.37s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-DET-055",
@@ -1662,7 +1662,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #55\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.49s"
+    "time": "0.32s"
   },
   {
     "id": "MOB-DET-056",
@@ -1671,7 +1671,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #56\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.37s"
   },
   {
     "id": "MOB-DET-057",
@@ -1680,7 +1680,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #57\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.32s"
+    "time": "0.31s"
   },
   {
     "id": "MOB-DET-058",
@@ -1689,7 +1689,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #58\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-DET-059",
@@ -1698,7 +1698,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #59\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.50s"
   },
   {
     "id": "MOB-DET-060",
@@ -1707,7 +1707,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #60\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.31s"
   },
   {
     "id": "MOB-DET-061",
@@ -1716,7 +1716,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #61\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.49s"
+    "time": "0.47s"
   },
   {
     "id": "MOB-DET-062",
@@ -1725,7 +1725,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #62\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.36s"
   },
   {
     "id": "MOB-DET-063",
@@ -1734,7 +1734,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #63\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.37s"
+    "time": "0.43s"
   },
   {
     "id": "MOB-DET-064",
@@ -1743,7 +1743,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #64\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.45s"
+    "time": "0.34s"
   },
   {
     "id": "MOB-DET-065",
@@ -1752,7 +1752,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #65\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.44s"
+    "time": "0.43s"
   },
   {
     "id": "MOB-DET-066",
@@ -1761,7 +1761,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #66\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.46s"
   },
   {
     "id": "MOB-DET-067",
@@ -1770,7 +1770,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #67\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.32s"
   },
   {
     "id": "MOB-DET-068",
@@ -1779,7 +1779,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #68\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.48s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-DET-069",
@@ -1788,7 +1788,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #69\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.49s"
+    "time": "0.48s"
   },
   {
     "id": "MOB-DET-070",
@@ -1797,7 +1797,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #70\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.47s"
   },
   {
     "id": "MOB-DET-071",
@@ -1806,7 +1806,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #71\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.35s"
   },
   {
     "id": "MOB-DET-072",
@@ -1815,7 +1815,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #72\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.43s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-DET-073",
@@ -1824,7 +1824,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #73\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.38s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-DET-074",
@@ -1833,7 +1833,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #74\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.47s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-DET-075",
@@ -1842,7 +1842,7 @@
     "steps": "1. Tap input text area\n2. Type payload content index #75\n3. Tap Analyze button",
     "expected": "Submits form payloads successfully.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.49s"
   },
   {
     "id": "MOB-PRED-001",
@@ -1851,7 +1851,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #1\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-PRED-002",
@@ -1860,7 +1860,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #2\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-PRED-003",
@@ -1869,7 +1869,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #3\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.12s"
   },
   {
     "id": "MOB-PRED-004",
@@ -1878,7 +1878,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #4\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-PRED-005",
@@ -1887,7 +1887,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #5\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.10s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-PRED-006",
@@ -1896,7 +1896,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #6\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-PRED-007",
@@ -1905,7 +1905,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #7\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-PRED-008",
@@ -1914,7 +1914,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #8\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.13s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-PRED-009",
@@ -1923,7 +1923,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #9\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-PRED-010",
@@ -1932,7 +1932,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #10\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-PRED-011",
@@ -1941,7 +1941,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #11\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-PRED-012",
@@ -1950,7 +1950,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #12\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-PRED-013",
@@ -1959,7 +1959,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #13\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-PRED-014",
@@ -1968,7 +1968,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #14\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-PRED-015",
@@ -1977,7 +1977,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #15\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-PRED-016",
@@ -1986,7 +1986,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #16\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-PRED-017",
@@ -1995,7 +1995,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #17\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-PRED-018",
@@ -2004,7 +2004,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #18\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-PRED-019",
@@ -2013,7 +2013,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #19\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.12s"
   },
   {
     "id": "MOB-PRED-020",
@@ -2031,7 +2031,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #21\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-PRED-022",
@@ -2040,7 +2040,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #22\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.11s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-PRED-023",
@@ -2049,7 +2049,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #23\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.11s"
   },
   {
     "id": "MOB-PRED-024",
@@ -2058,7 +2058,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #24\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.16s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-PRED-025",
@@ -2067,7 +2067,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #25\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.15s"
   },
   {
     "id": "MOB-PRED-026",
@@ -2085,7 +2085,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #27\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-PRED-028",
@@ -2094,7 +2094,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #28\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.12s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-PRED-029",
@@ -2103,7 +2103,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #29\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-PRED-030",
@@ -2112,7 +2112,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #30\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-PRED-031",
@@ -2121,7 +2121,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #31\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-PRED-032",
@@ -2130,7 +2130,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #32\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-PRED-033",
@@ -2139,7 +2139,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #33\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.15s"
   },
   {
     "id": "MOB-PRED-034",
@@ -2148,7 +2148,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #34\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.16s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-PRED-035",
@@ -2157,7 +2157,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #35\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-PRED-036",
@@ -2166,7 +2166,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #36\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.16s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-PRED-037",
@@ -2184,7 +2184,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #38\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-PRED-039",
@@ -2193,7 +2193,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #39\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.13s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-PRED-040",
@@ -2202,7 +2202,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #40\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-PRED-041",
@@ -2211,7 +2211,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #41\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-PRED-042",
@@ -2220,7 +2220,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #42\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.15s"
   },
   {
     "id": "MOB-PRED-043",
@@ -2229,7 +2229,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #43\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-PRED-044",
@@ -2238,7 +2238,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #44\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-PRED-045",
@@ -2247,7 +2247,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #45\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-PRED-046",
@@ -2256,7 +2256,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #46\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.11s"
   },
   {
     "id": "MOB-PRED-047",
@@ -2265,7 +2265,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #47\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-PRED-048",
@@ -2274,7 +2274,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #48\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.15s"
   },
   {
     "id": "MOB-PRED-049",
@@ -2283,7 +2283,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #49\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.16s"
   },
   {
     "id": "MOB-PRED-050",
@@ -2292,7 +2292,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #50\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.13s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-PRED-051",
@@ -2301,7 +2301,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #51\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-PRED-052",
@@ -2310,7 +2310,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #52\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.14s"
   },
   {
     "id": "MOB-PRED-053",
@@ -2319,7 +2319,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #53\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.13s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-PRED-054",
@@ -2328,7 +2328,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #54\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-PRED-055",
@@ -2337,7 +2337,7 @@
     "steps": "1. Inspect mobile card layout\n2. Assert color badges for index #55\n3. Tap logic details expander",
     "expected": "Card displays correctly inside device bounds.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.10s"
   },
   {
     "id": "MOB-HIST-001",
@@ -2346,7 +2346,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #1",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.12s"
   },
   {
     "id": "MOB-HIST-002",
@@ -2355,7 +2355,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #2",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-HIST-003",
@@ -2364,7 +2364,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #3",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.10s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-HIST-004",
@@ -2373,7 +2373,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #4",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-HIST-005",
@@ -2382,7 +2382,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #5",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-HIST-006",
@@ -2391,7 +2391,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #6",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.14s"
   },
   {
     "id": "MOB-HIST-007",
@@ -2409,7 +2409,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #8",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-HIST-009",
@@ -2418,7 +2418,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #9",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-HIST-010",
@@ -2427,7 +2427,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #10",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-HIST-011",
@@ -2445,7 +2445,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #12",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-HIST-013",
@@ -2454,7 +2454,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #13",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-HIST-014",
@@ -2463,7 +2463,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #14",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.20s"
   },
   {
     "id": "MOB-HIST-015",
@@ -2472,7 +2472,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #15",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.18s"
   },
   {
     "id": "MOB-HIST-016",
@@ -2481,7 +2481,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #16",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-HIST-017",
@@ -2490,7 +2490,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #17",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-HIST-018",
@@ -2508,7 +2508,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #19",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-HIST-020",
@@ -2517,7 +2517,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #20",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-HIST-021",
@@ -2526,7 +2526,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #21",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.14s"
   },
   {
     "id": "MOB-HIST-022",
@@ -2535,7 +2535,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #22",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.16s"
   },
   {
     "id": "MOB-HIST-023",
@@ -2544,7 +2544,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #23",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-HIST-024",
@@ -2553,7 +2553,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #24",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-HIST-025",
@@ -2562,7 +2562,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #25",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-HIST-026",
@@ -2571,7 +2571,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #26",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-HIST-027",
@@ -2580,7 +2580,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #27",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-HIST-028",
@@ -2589,7 +2589,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #28",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-HIST-029",
@@ -2598,7 +2598,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #29",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-HIST-030",
@@ -2607,7 +2607,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #30",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-HIST-031",
@@ -2616,7 +2616,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #31",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.16s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-HIST-032",
@@ -2625,7 +2625,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #32",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.14s"
   },
   {
     "id": "MOB-HIST-033",
@@ -2634,7 +2634,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #33",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-HIST-034",
@@ -2643,7 +2643,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #34",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-HIST-035",
@@ -2652,7 +2652,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #35",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.10s"
   },
   {
     "id": "MOB-HIST-036",
@@ -2661,7 +2661,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #36",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.11s"
   },
   {
     "id": "MOB-HIST-037",
@@ -2679,7 +2679,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #38",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.12s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-HIST-039",
@@ -2688,7 +2688,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #39",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.13s"
+    "time": "0.15s"
   },
   {
     "id": "MOB-HIST-040",
@@ -2697,7 +2697,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #40",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-HIST-041",
@@ -2706,7 +2706,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #41",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-HIST-042",
@@ -2715,7 +2715,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #42",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-HIST-043",
@@ -2724,7 +2724,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #43",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.10s"
   },
   {
     "id": "MOB-HIST-044",
@@ -2733,7 +2733,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #44",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.16s"
+    "time": "0.15s"
   },
   {
     "id": "MOB-HIST-045",
@@ -2742,7 +2742,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #45",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-HIST-046",
@@ -2751,7 +2751,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #46",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-HIST-047",
@@ -2760,7 +2760,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #47",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-HIST-048",
@@ -2769,7 +2769,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #48",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-HIST-049",
@@ -2778,7 +2778,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #49",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-HIST-050",
@@ -2787,7 +2787,7 @@
     "steps": "1. Open History tab\n2. Perform pull-to-refresh\n3. Tap index row #50",
     "expected": "List updates from local database cache.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-PERF-001",
@@ -2796,7 +2796,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #1\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.42s"
+    "time": "0.31s"
   },
   {
     "id": "MOB-PERF-002",
@@ -2805,7 +2805,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #2\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.47s"
+    "time": "0.37s"
   },
   {
     "id": "MOB-PERF-003",
@@ -2814,7 +2814,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #3\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.51s"
+    "time": "0.58s"
   },
   {
     "id": "MOB-PERF-004",
@@ -2823,7 +2823,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #4\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.42s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-PERF-005",
@@ -2832,7 +2832,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #5\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.32s"
+    "time": "0.41s"
   },
   {
     "id": "MOB-PERF-006",
@@ -2841,7 +2841,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #6\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.44s"
+    "time": "0.31s"
   },
   {
     "id": "MOB-PERF-007",
@@ -2850,7 +2850,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #7\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.33s"
+    "time": "0.57s"
   },
   {
     "id": "MOB-PERF-008",
@@ -2859,7 +2859,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #8\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.46s"
   },
   {
     "id": "MOB-PERF-009",
@@ -2868,7 +2868,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #9\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.48s"
+    "time": "0.35s"
   },
   {
     "id": "MOB-PERF-010",
@@ -2877,7 +2877,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #10\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.43s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-PERF-011",
@@ -2886,7 +2886,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #11\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.56s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-PERF-012",
@@ -2895,7 +2895,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #12\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.54s"
+    "time": "0.55s"
   },
   {
     "id": "MOB-PERF-013",
@@ -2904,7 +2904,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #13\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.58s"
+    "time": "0.49s"
   },
   {
     "id": "MOB-PERF-014",
@@ -2913,7 +2913,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #14\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.42s"
+    "time": "0.32s"
   },
   {
     "id": "MOB-PERF-015",
@@ -2922,7 +2922,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #15\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.43s"
+    "time": "0.58s"
   },
   {
     "id": "MOB-PERF-016",
@@ -2931,7 +2931,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #16\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.48s"
+    "time": "0.53s"
   },
   {
     "id": "MOB-PERF-017",
@@ -2940,7 +2940,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #17\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.54s"
+    "time": "0.41s"
   },
   {
     "id": "MOB-PERF-018",
@@ -2949,7 +2949,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #18\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.50s"
+    "time": "0.36s"
   },
   {
     "id": "MOB-PERF-019",
@@ -2958,7 +2958,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #19\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.53s"
+    "time": "0.54s"
   },
   {
     "id": "MOB-PERF-020",
@@ -2967,7 +2967,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #20\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.41s"
+    "time": "0.46s"
   },
   {
     "id": "MOB-PERF-021",
@@ -2976,7 +2976,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #21\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.35s"
   },
   {
     "id": "MOB-PERF-022",
@@ -2985,7 +2985,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #22\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.59s"
   },
   {
     "id": "MOB-PERF-023",
@@ -2994,7 +2994,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #23\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.45s"
+    "time": "0.52s"
   },
   {
     "id": "MOB-PERF-024",
@@ -3003,7 +3003,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #24\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.42s"
+    "time": "0.58s"
   },
   {
     "id": "MOB-PERF-025",
@@ -3012,7 +3012,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #25\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.41s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-PERF-026",
@@ -3021,7 +3021,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #26\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.48s"
+    "time": "0.36s"
   },
   {
     "id": "MOB-PERF-027",
@@ -3030,7 +3030,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #27\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.47s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-PERF-028",
@@ -3039,7 +3039,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #28\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.59s"
   },
   {
     "id": "MOB-PERF-029",
@@ -3048,7 +3048,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #29\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.45s"
   },
   {
     "id": "MOB-PERF-030",
@@ -3057,7 +3057,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #30\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.34s"
+    "time": "0.38s"
   },
   {
     "id": "MOB-PERF-031",
@@ -3066,7 +3066,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #31\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.55s"
+    "time": "0.50s"
   },
   {
     "id": "MOB-PERF-032",
@@ -3075,7 +3075,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #32\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.43s"
+    "time": "0.52s"
   },
   {
     "id": "MOB-PERF-033",
@@ -3084,7 +3084,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #33\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.42s"
+    "time": "0.52s"
   },
   {
     "id": "MOB-PERF-034",
@@ -3093,7 +3093,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #34\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.54s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-PERF-035",
@@ -3102,7 +3102,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #35\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.51s"
+    "time": "0.49s"
   },
   {
     "id": "MOB-PERF-036",
@@ -3111,7 +3111,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #36\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-PERF-037",
@@ -3129,7 +3129,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #38\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.53s"
   },
   {
     "id": "MOB-PERF-039",
@@ -3138,7 +3138,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #39\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.36s"
   },
   {
     "id": "MOB-PERF-040",
@@ -3147,7 +3147,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #40\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.45s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-PERF-041",
@@ -3156,7 +3156,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #41\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.45s"
+    "time": "0.53s"
   },
   {
     "id": "MOB-PERF-042",
@@ -3165,7 +3165,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #42\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.51s"
   },
   {
     "id": "MOB-PERF-043",
@@ -3174,7 +3174,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #43\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.53s"
   },
   {
     "id": "MOB-PERF-044",
@@ -3183,7 +3183,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #44\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.57s"
+    "time": "0.33s"
   },
   {
     "id": "MOB-PERF-045",
@@ -3192,7 +3192,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #45\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.48s"
+    "time": "0.34s"
   },
   {
     "id": "MOB-PERF-046",
@@ -3201,7 +3201,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #46\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.41s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-PERF-047",
@@ -3210,7 +3210,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #47\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.42s"
   },
   {
     "id": "MOB-PERF-048",
@@ -3219,7 +3219,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #48\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.53s"
   },
   {
     "id": "MOB-PERF-049",
@@ -3228,7 +3228,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #49\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-PERF-050",
@@ -3237,7 +3237,7 @@
     "steps": "1. Monitor background CPU payload\n2. Force device rotate orientation #50\n3. Re-assert memory limits",
     "expected": "Device memory allocations stay below 120MB threshold.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.57s"
   },
   {
     "id": "MOB-SET-001",
@@ -3246,7 +3246,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #1\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.19s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-SET-002",
@@ -3255,7 +3255,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #2\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.12s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-SET-003",
@@ -3264,7 +3264,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #3\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-SET-004",
@@ -3273,7 +3273,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #4\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.11s"
   },
   {
     "id": "MOB-SET-005",
@@ -3282,7 +3282,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #5\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.10s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-SET-006",
@@ -3291,7 +3291,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #6\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-SET-007",
@@ -3300,7 +3300,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #7\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.13s"
   },
   {
     "id": "MOB-SET-008",
@@ -3309,7 +3309,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #8\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.16s"
   },
   {
     "id": "MOB-SET-009",
@@ -3318,7 +3318,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #9\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.10s"
   },
   {
     "id": "MOB-SET-010",
@@ -3327,7 +3327,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #10\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-SET-011",
@@ -3336,7 +3336,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #11\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-SET-012",
@@ -3345,7 +3345,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #12\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.10s"
   },
   {
     "id": "MOB-SET-013",
@@ -3354,7 +3354,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #13\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-SET-014",
@@ -3363,7 +3363,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #14\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-SET-015",
@@ -3372,7 +3372,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #15\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.11s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-SET-016",
@@ -3390,7 +3390,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #17\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-SET-018",
@@ -3399,7 +3399,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #18\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-SET-019",
@@ -3408,7 +3408,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #19\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-SET-020",
@@ -3417,7 +3417,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #20\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-SET-021",
@@ -3426,7 +3426,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #21\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-SET-022",
@@ -3435,7 +3435,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #22\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-SET-023",
@@ -3444,7 +3444,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #23\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-SET-024",
@@ -3453,7 +3453,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #24\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.17s"
   },
   {
     "id": "MOB-SET-025",
@@ -3462,7 +3462,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #25\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-SET-026",
@@ -3480,7 +3480,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #27\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.14s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-SET-028",
@@ -3489,7 +3489,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #28\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-SET-029",
@@ -3498,7 +3498,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #29\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.18s"
   },
   {
     "id": "MOB-SET-030",
@@ -3507,7 +3507,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #30\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-SET-031",
@@ -3525,7 +3525,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #32\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-SET-033",
@@ -3534,7 +3534,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #33\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.10s"
+    "time": "0.12s"
   },
   {
     "id": "MOB-SET-034",
@@ -3543,7 +3543,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #34\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-SET-035",
@@ -3552,7 +3552,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #35\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.10s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-SET-036",
@@ -3561,7 +3561,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #36\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.15s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-SET-037",
@@ -3570,7 +3570,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #37\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-SET-038",
@@ -3579,7 +3579,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #38\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.29s"
   },
   {
     "id": "MOB-SET-039",
@@ -3588,7 +3588,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #39\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.17s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-SET-040",
@@ -3597,7 +3597,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #40\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.13s"
+    "time": "0.19s"
   },
   {
     "id": "MOB-SET-041",
@@ -3606,7 +3606,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #41\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.10s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-SET-042",
@@ -3615,7 +3615,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #42\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.11s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-SET-043",
@@ -3624,7 +3624,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #43\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.12s"
   },
   {
     "id": "MOB-SET-044",
@@ -3633,7 +3633,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #44\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.13s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-SET-045",
@@ -3642,7 +3642,7 @@
     "steps": "1. Tap Settings route\n2. Toggle switch index #45\n3. Verify switch state persists",
     "expected": "Config settings serialize and sync immediately.",
     "status": "PASS",
-    "time": "0.18s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-SEC-001",
@@ -3651,7 +3651,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$1\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.34s"
   },
   {
     "id": "MOB-SEC-002",
@@ -3660,7 +3660,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$2\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.39s"
+    "time": "0.32s"
   },
   {
     "id": "MOB-SEC-003",
@@ -3669,7 +3669,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$3\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.38s"
+    "time": "0.31s"
   },
   {
     "id": "MOB-SEC-004",
@@ -3687,7 +3687,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$5\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.38s"
   },
   {
     "id": "MOB-SEC-006",
@@ -3696,7 +3696,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$6\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.33s"
   },
   {
     "id": "MOB-SEC-007",
@@ -3705,7 +3705,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$7\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.22s"
   },
   {
     "id": "MOB-SEC-008",
@@ -3714,7 +3714,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$8\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-SEC-009",
@@ -3723,7 +3723,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$9\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-SEC-010",
@@ -3732,7 +3732,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$10\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.24s"
   },
   {
     "id": "MOB-SEC-011",
@@ -3741,7 +3741,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$11\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.34s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-SEC-012",
@@ -3750,7 +3750,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$12\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.32s"
   },
   {
     "id": "MOB-SEC-013",
@@ -3759,7 +3759,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$13\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.29s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-SEC-014",
@@ -3768,7 +3768,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$14\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.40s"
+    "time": "0.37s"
   },
   {
     "id": "MOB-SEC-015",
@@ -3777,7 +3777,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$15\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.36s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-SEC-016",
@@ -3786,7 +3786,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$16\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.33s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-SEC-017",
@@ -3795,7 +3795,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$17\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.27s"
+    "time": "0.31s"
   },
   {
     "id": "MOB-SEC-018",
@@ -3804,7 +3804,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$18\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.36s"
+    "time": "0.32s"
   },
   {
     "id": "MOB-SEC-019",
@@ -3822,7 +3822,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$20\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.34s"
   },
   {
     "id": "MOB-SEC-021",
@@ -3831,7 +3831,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$21\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-SEC-022",
@@ -3840,7 +3840,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$22\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.36s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-SEC-023",
@@ -3849,7 +3849,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$23\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.40s"
   },
   {
     "id": "MOB-SEC-024",
@@ -3858,7 +3858,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$24\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.34s"
+    "time": "0.27s"
   },
   {
     "id": "MOB-SEC-025",
@@ -3867,7 +3867,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$25\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.23s"
+    "time": "0.30s"
   },
   {
     "id": "MOB-SEC-026",
@@ -3876,7 +3876,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$26\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.37s"
+    "time": "0.36s"
   },
   {
     "id": "MOB-SEC-027",
@@ -3885,7 +3885,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$27\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.25s"
+    "time": "0.21s"
   },
   {
     "id": "MOB-SEC-028",
@@ -3894,7 +3894,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$28\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.26s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-SEC-029",
@@ -3903,7 +3903,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$29\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.23s"
   },
   {
     "id": "MOB-SEC-030",
@@ -3912,7 +3912,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$30\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.33s"
   },
   {
     "id": "MOB-SEC-031",
@@ -3921,7 +3921,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$31\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.36s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-SEC-032",
@@ -3930,7 +3930,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$32\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.22s"
+    "time": "0.34s"
   },
   {
     "id": "MOB-SEC-033",
@@ -3948,7 +3948,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$34\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.28s"
+    "time": "0.31s"
   },
   {
     "id": "MOB-SEC-035",
@@ -3957,7 +3957,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$35\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.31s"
   },
   {
     "id": "MOB-SEC-036",
@@ -3966,7 +3966,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$36\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.34s"
   },
   {
     "id": "MOB-SEC-037",
@@ -3975,7 +3975,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$37\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.35s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-SEC-038",
@@ -3984,7 +3984,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$38\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.35s"
+    "time": "0.37s"
   },
   {
     "id": "MOB-SEC-039",
@@ -3993,7 +3993,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$39\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.35s"
+    "time": "0.34s"
   },
   {
     "id": "MOB-SEC-040",
@@ -4002,7 +4002,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$40\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.24s"
+    "time": "0.26s"
   },
   {
     "id": "MOB-SEC-041",
@@ -4011,7 +4011,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$41\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.30s"
+    "time": "0.25s"
   },
   {
     "id": "MOB-SEC-042",
@@ -4020,7 +4020,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$42\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.21s"
+    "time": "0.39s"
   },
   {
     "id": "MOB-SEC-043",
@@ -4029,7 +4029,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$43\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.20s"
+    "time": "0.40s"
   },
   {
     "id": "MOB-SEC-044",
@@ -4038,7 +4038,7 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$44\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.32s"
+    "time": "0.28s"
   },
   {
     "id": "MOB-SEC-045",
@@ -4047,6 +4047,6 @@
     "steps": "1. Intercept outbound API package\n2. Re-assert request headers for variant #$45\n3. Check status code",
     "expected": "Request blocked or handles payload securely.",
     "status": "PASS",
-    "time": "0.32s"
+    "time": "0.27s"
   }
 ]

@@ -339,13 +339,14 @@ def generate_html_file(test_cases):
         status_class = "status-pass" if tc["status"] == "PASS" else "status-fail"
         severity_html = f'<span class="severity-badge">{tc.get("severity", "N/A")}</span>' if tc["status"] == "FAIL" else '<span class="severity-na">N/A</span>'
         
+        steps_html = tc['steps'].replace('\n', '<br>')
         table_rows_html += f"""
         <tr class="test-row" data-status="{tc['status']}" data-module="{tc['module']}" data-type="{tc['type']}">
             <td class="cell-id">{tc['id']}</td>
             <td class="cell-type">{tc['type']}</td>
             <td class="cell-module">{tc['module']}</td>
             <td class="cell-scenario font-semibold">{tc['scenario']}</td>
-            <td class="cell-steps">{tc['steps'].replace('\n', '<br>')}</td>
+            <td class="cell-steps">{steps_html}</td>
             <td class="cell-expected">{tc['expected']}</td>
             <td class="cell-actual">{tc['actual']}</td>
             <td class="cell-status"><span class="badge {status_class}">{tc['status']}</span></td>
