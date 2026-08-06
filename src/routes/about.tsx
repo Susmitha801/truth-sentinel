@@ -62,15 +62,30 @@ function AboutPage() {
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2">
-          {pipeline.map((p) => (
-            <div key={p.title} className="glass rounded-2xl p-6">
-              <div className="grid h-10 w-10 place-items-center rounded-xl bg-[image:var(--gradient-cyber)] text-primary-foreground">
-                <p.icon className="h-5 w-5" />
+          {pipeline.map((p) => {
+            const isPreprocessing = p.title.includes("Preprocessing");
+            return (
+              <div
+                key={p.title}
+                className={`glass rounded-2xl p-6 relative transition-opacity ${
+                  isPreprocessing ? "opacity-50 grayscale-[30%]" : ""
+                }`}
+              >
+                <div className="flex justify-between items-start">
+                  <div className="grid h-10 w-10 place-items-center rounded-xl bg-[image:var(--gradient-cyber)] text-primary-foreground">
+                    <p.icon className="h-5 w-5" />
+                  </div>
+                  {isPreprocessing && (
+                    <span className="rounded bg-destructive/10 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-destructive ring-1 ring-destructive/30">
+                      Bypassed
+                    </span>
+                  )}
+                </div>
+                <h3 className="mt-4 font-display text-lg font-semibold">{p.title}</h3>
+                <p className="mt-1 text-sm text-muted-foreground">{p.desc}</p>
               </div>
-              <h3 className="mt-4 font-display text-lg font-semibold">{p.title}</h3>
-              <p className="mt-1 text-sm text-muted-foreground">{p.desc}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         <div className="glass-strong rounded-3xl p-8">
