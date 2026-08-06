@@ -51,7 +51,7 @@ function AnalyzePage() {
 
   useEffect(() => {
     checkBackendStatus().then(setBackendOnline);
-    const poll = setInterval(() => checkBackendStatus().then(setBackendOnline), 15000);
+    const poll = setInterval(() => checkBackendStatus().then(setBackendOnline), 10000);
     return () => clearInterval(poll);
   }, []);
 
@@ -140,11 +140,11 @@ function AnalyzePage() {
               </span>
             ) : backendOnline ? (
               <span className="inline-flex items-center gap-1.5 rounded-full bg-success/15 px-3 py-1 text-xs font-semibold text-success ring-1 ring-success/30">
-                <Wifi className="h-3 w-3" /> AI Backend Online · localhost:8000
+                🟢 Backend Online
               </span>
             ) : (
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-warning/15 px-3 py-1 text-xs font-semibold text-warning ring-1 ring-warning/30">
-                <WifiOff className="h-3 w-3" /> Backend offline · using local analysis
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-destructive/15 px-3 py-1 text-xs font-semibold text-destructive ring-1 ring-destructive/30">
+                🔴 Backend Offline
               </span>
             )}
           </div>

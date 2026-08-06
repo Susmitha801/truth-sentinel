@@ -246,6 +246,10 @@ class AnalyzeResponse(BaseModel):
     category: str
     reasoning: List[str]
     sourceRating: Optional[int] = None
+    prediction: Optional[str] = None
+    confidence_score: Optional[int] = None
+    explanation: Optional[List[str]] = None
+    source_credibility: Optional[int] = None
 
 # ── Routes ────────────────────────────────────────────────────────────────────
 
@@ -257,6 +261,7 @@ def root():
 def health():
     return {"status": "healthy", "timestamp": time.time()}
 
+@app.post("/analyze", response_model=AnalyzeResponse)
 @app.post("/api/analyze", response_model=AnalyzeResponse)
 def analyze(req: AnalyzeRequest):
     if not req.text or len(req.text.strip()) < 20:
@@ -286,6 +291,10 @@ def analyze(req: AnalyzeRequest):
         category=result["category"],
         reasoning=result["reasoning"],
         sourceRating=result["sourceRating"],
+        prediction=result["verdict"].capitalize(),
+        confidence_score=result["confidence"],
+        explanation=result["reasoning"],
+        source_credibility=result["credibility"],
     )
 
 @app.get("/api/status")

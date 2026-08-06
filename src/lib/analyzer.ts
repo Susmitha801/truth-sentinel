@@ -11,7 +11,7 @@ async function analyzeViaBackend(input: {
   title?: string;
 }): Promise<AnalysisResult | null> {
   try {
-    const res = await fetch(`${BACKEND_URL}/api/analyze`, {
+    const res = await fetch(`${BACKEND_URL}/analyze`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ text: input.text, source: input.source, title: input.title }),
@@ -23,6 +23,19 @@ async function analyzeViaBackend(input: {
       return null;
     }
     const data = await res.json();
+    // Map alternate naming options if returned by backend
+    if (data.prediction && !data.verdict) {
+      data.verdict = data.prediction.toLowerCase() as Verdict;
+    }
+    if (data.confidence_score !== undefined && data.confidence === undefined) {
+      data.confidence = data.confidence_score;
+    }
+    if (data.explanation && !data.reasoning) {
+      data.reasoning = data.explanation;
+    }
+    if (data.source_credibility !== undefined && data.credibility === undefined) {
+      data.credibility = data.source_credibility;
+    }
     // Normalize sentiment label casing from backend
     if (data.sentiment?.label) {
       data.sentiment.label = data.sentiment.label.toLowerCase() as "positive" | "neutral" | "negative";
