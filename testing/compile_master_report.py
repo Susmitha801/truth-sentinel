@@ -119,6 +119,32 @@ def generate_excel_file(test_cases):
         wb.save(alternative_path)
         print(f"WARNING: Permission denied writing to {excel_path}. Saved to: {os.path.abspath(alternative_path)}")
 
+    # Generate individual reports
+    individual_mapping = [
+        ("selenium_web_report.xlsx", "Web Dashboard Tests", "Selenium (Desktop)"),
+        ("appium_android_report.xlsx", "Mobile App Tests", "Appium (Mobile)"),
+        ("unit_test_report.xlsx", "API Unit Tests", "Unit Tests (API)"),
+        ("validation_test_report.xlsx", "Validation Tests", "Validation"),
+        ("deployment_test_report.xlsx", "Deployment Status Tests", "Deployment"),
+        ("load_test_report.xlsx", "Load Testing Dashboard", "Load / Performance"),
+    ]
+    
+    for filename, title, test_type in individual_mapping:
+        ind_wb = Workbook()
+        ind_ws = ind_wb.active
+        ind_ws.title = title
+        ind_ws.views.sheetView[0].showGridLines = True
+        
+        # Filter test cases for this sheet
+        sheet_cases = [tc for tc in test_cases.values() if tc["type"] == test_type]
+        write_suite_sheet(ind_ws, sheet_cases)
+        
+        try:
+            ind_wb.save(filename)
+            print(f"Individual Excel report saved at: {os.path.abspath(filename)}")
+        except Exception as e:
+            print(f"Error saving {filename}: {e}")
+
 def write_suite_sheet(ws, cases):
     font_family = "Segoe UI"
     header_font = Font(name=font_family, size=11, bold=True, color="FFFFFF")

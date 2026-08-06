@@ -230,18 +230,48 @@ jobs:
     - name: Upload Master Excel Test Report
       uses: actions/upload-artifact@v4
       with:
-        name: Consolidated-Excel-Report
+        name: full-e2e-report
         path: testing/test_report.xlsx
 
-    - name: Upload Master HTML Dashboard Report
+    - name: Upload Selenium Web Report
       uses: actions/upload-artifact@v4
       with:
-        name: Consolidated-HTML-Report
-        path: testing/test_report.html
+        name: selenium-web-report
+        path: testing/selenium_web_report.xlsx
+
+    - name: Upload Appium Android Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: appium-android-report
+        path: testing/appium_android_report.xlsx
+
+    - name: Upload Unit Test Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: unit-test-report
+        path: testing/unit_test_report.xlsx
+
+    - name: Upload Validation Test Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: validation-test-report
+        path: testing/validation_test_report.xlsx
+
+    - name: Upload Deployment Test Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: deployment-test-report
+        path: testing/deployment_test_report.xlsx
+
+    - name: Upload Load Test Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: load-test-report
+        path: testing/load_test_report.xlsx
 
     - name: Upload Vulnerability Report Excel
       uses: actions/upload-artifact@v4
       with:
-        name: Vulnerability-Report-Excel
+        name: vulnerability-test-report
         path: "Vulnerability Test Results/Vulnerability_Report.xlsx"
 
