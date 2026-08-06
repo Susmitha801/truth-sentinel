@@ -2,6 +2,8 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Brain, Database, Lock, Layers, Sparkles, Globe } from "lucide-react";
 import { DashboardLayout } from "@/components/dashboard-layout";
 import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
+import { checkBackendStatus } from "@/lib/analyzer";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -25,10 +27,31 @@ const pipeline = [
 ];
 
 function AboutPage() {
+  const [backendOnline, setBackendOnline] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    checkBackendStatus().then(setBackendOnline);
+  }, []);
+
   return (
     <DashboardLayout>
       <div className="mx-auto max-w-4xl space-y-6">
         <div className="text-center">
+          <div className="mb-3 flex justify-center">
+            {backendOnline === null ? (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-muted/50 px-3 py-1 text-xs text-muted-foreground">
+                Checking AI backend...
+              </span>
+            ) : backendOnline ? (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-success/15 px-3 py-1 text-xs font-semibold text-success ring-1 ring-success/30">
+                🟢 Live AI Backend Connected
+              </span>
+            ) : (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-destructive/15 px-3 py-1 text-xs font-semibold text-destructive ring-1 ring-destructive/30">
+                🔴 Backend Offline · Using Local Engine
+              </span>
+            )}
+          </div>
           <h1 className="font-display text-4xl font-bold sm:text-5xl">
             About <span className="gradient-text">Fake News Shield</span>
           </h1>
@@ -69,9 +92,16 @@ function AboutPage() {
           </ul>
 
           <div className="mt-8 rounded-2xl border border-dashed border-border p-5 text-sm text-muted-foreground">
-            <strong className="text-foreground">Disclaimer:</strong> This demo runs a
-            lightweight heuristic engine in the browser. Predictions are illustrative —
-            always verify with primary sources before sharing.
+            <strong className="text-foreground">System Status:</strong>{" "}
+            {backendOnline ? (
+              <span>
+                FakeNews Shield is connected to the live FastAPI API backend running on port 8000. All predictions, confidence scores, explanations, and credibility metrics are processed live by the backend ML models.
+              </span>
+            ) : (
+              <span>
+                The backend is currently offline. This demo is running a lightweight heuristic engine in your browser. Predictions are illustrative — always verify with primary sources.
+              </span>
+            )}
           </div>
 
           <div className="mt-6 flex flex-wrap gap-3">
