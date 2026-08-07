@@ -1,0 +1,17 @@
+{
+  "name": "Fake News Shield",
+  "short_name": "News Shield",
+  "description": "AI-powered fake news detection with credibility scoring and analytics.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#131622",
+  "theme_color": "#7033f7",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

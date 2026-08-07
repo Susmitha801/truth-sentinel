@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7033f7" />
+      <stop offset="100%" stop-color="#b829f2" />
+    </linearGradient>
+    <linearGradient id="shieldBg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f111a" />
+      <stop offset="100%" stop-color="#1d2030" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <rect width="512" height="512" rx="128" fill="url(#shieldBg)" />
+  
+  <!-- Outer glowing shield outline -->
+  <path d="M256,64 C192,96 128,96 128,96 C128,96 112,240 128,336 C144,400 256,448 256,448 C256,448 368,400 384,336 C400,240 384,96 384,96 C384,96 320,96 256,64 Z" 
+        fill="none" stroke="url(#shieldGrad)" stroke-width="16" stroke-linejoin="round" />
+        
+  <!-- Inner filled shield -->
+  <path d="M256,96 C204,122 152,122 152,122 C152,122 138,237 152,314 C165,365 256,404 256,404 C256,404 347,365 360,314 C374,237 360,122 360,122 C360,122 308,122 256,96 Z" 
+        fill="url(#shieldGrad)" opacity="0.85" />
+        
+  <!-- Artificial Intelligence nodes / checkmark emblem in center -->
+  <path d="M200,248 L240,288 L312,200" fill="none" stroke="#ffffff" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
