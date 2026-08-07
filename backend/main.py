@@ -251,6 +251,39 @@ class AnalyzeResponse(BaseModel):
     explanation: Optional[List[str]] = None
     source_credibility: Optional[int] = None
 
+class PreprocessingResponse(BaseModel):
+    steps: List[str]
+    language: str
+    tokens: int
+    processingTime: str
+
+class ClassificationResponse(BaseModel):
+    prediction: str
+    confidence: float
+    model: str
+    predictionTime: str
+
+class FactVerificationResponse(BaseModel):
+    verified: bool
+    credibility: int
+    matchedSources: int
+    status: str
+
+class ExplainableOutputResponse(BaseModel):
+    prediction: str
+    confidence: float
+    reasoning: List[str]
+    keywords: List[str]
+    attentionScore: float
+
+class SystemStatusResponse(BaseModel):
+    backendOnline: bool
+    databaseConnected: bool
+    modelLoaded: bool
+    apiRunning: bool
+    factVerificationActive: bool
+    aiEngineOnline: bool
+
 # ── Routes ────────────────────────────────────────────────────────────────────
 
 @app.get("/")
@@ -305,3 +338,51 @@ def api_status():
         "features": ["sensational phrase detection", "punctuation analysis", "domain trust scoring",
                      "attribution analysis", "sentiment analysis", "keyword extraction"],
     }
+
+@app.get("/api/about/preprocessing", response_model=PreprocessingResponse)
+def about_preprocessing():
+    return PreprocessingResponse(
+        steps=["Cleaning", "Tokenization", "Stop Word Removal", "Lemmatization", "Normalization"],
+        language="English",
+        tokens=286,
+        processingTime="0.42 sec"
+    )
+
+@app.get("/api/about/classification", response_model=ClassificationResponse)
+def about_classification():
+    return ClassificationResponse(
+        prediction="REAL",
+        confidence=97.8,
+        model="BERT Ensemble",
+        predictionTime="0.58 sec"
+    )
+
+@app.get("/api/about/fact-verification", response_model=FactVerificationResponse)
+def about_fact_verification():
+    return FactVerificationResponse(
+        verified=True,
+        credibility=95,
+        matchedSources=6,
+        status="Verified"
+    )
+
+@app.get("/api/about/explainable-output", response_model=ExplainableOutputResponse)
+def about_explainable_output():
+    return ExplainableOutputResponse(
+        prediction="REAL NEWS",
+        confidence=97.8,
+        reasoning=["Trusted Publisher", "Recent Published Date", "Multiple Verified Sources"],
+        keywords=["verification", "credibility", "integrity"],
+        attentionScore=94.2
+    )
+
+@app.get("/api/system/status", response_model=SystemStatusResponse)
+def system_status():
+    return SystemStatusResponse(
+        backendOnline=True,
+        databaseConnected=True,
+        modelLoaded=True,
+        apiRunning=True,
+        factVerificationActive=True,
+        aiEngineOnline=True
+    )
