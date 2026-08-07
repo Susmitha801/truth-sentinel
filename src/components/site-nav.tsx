@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
-import { Shield, Menu, X } from "lucide-react";
-import { useState } from "react";
+import { Shield, Menu, X, Download } from "lucide-react";
+import { useState, useEffect } from "react";
 import { ThemeToggle } from "./theme-toggle";
 import { Button } from "@/components/ui/button";
 
@@ -14,6 +14,34 @@ const links = [
 
 export function SiteNav() {
   const [open, setOpen] = useState(false);
+  const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
+
+  useEffect(() => {
+    const handler = (e: any) => {
+      // Prevent the mini-infobar from appearing on mobile
+      e.preventDefault();
+      // Save the event so it can be triggered later
+      setDeferredPrompt(e);
+    };
+
+    window.addEventListener("beforeinstallprompt", handler);
+
+    return () => {
+      window.removeEventListener("beforeinstallprompt", handler);
+    };
+  }, []);
+
+  const handleInstallClick = async () => {
+    if (!deferredPrompt) return;
+    // Show the install prompt
+    deferredPrompt.prompt();
+    // Wait for the user to respond to the prompt
+    const { outcome } = await deferredPrompt.userChoice;
+    console.log(`User response to install prompt: ${outcome}`);
+    // We've used the prompt, discard it
+    setDeferredPrompt(null);
+  };
+
   return (
     <header className="sticky top-0 z-50 w-full">
       <div className="glass mx-auto mt-3 flex max-w-6xl items-center justify-between rounded-2xl px-4 py-3 sm:px-6">
@@ -47,6 +75,17 @@ export function SiteNav() {
 
         <div className="flex items-center gap-2">
           <ThemeToggle />
+          {deferredPrompt && (
+            <Button 
+              onClick={handleInstallClick} 
+              size="sm" 
+              variant="outline" 
+              className="hidden md:inline-flex gap-1.5 border border-primary/20 text-primary hover:bg-primary/5"
+            >
+              <Download className="h-4 w-4" />
+              Install App
+            </Button>
+          )}
           <Button asChild className="hidden md:inline-flex" size="sm">
             <Link to="/analyze">Analyze News</Link>
           </Button>
@@ -76,6 +115,18 @@ export function SiteNav() {
               {l.label}
             </Link>
           ))}
+          {deferredPrompt && (
+            <button
+              onClick={() => {
+                handleInstallClick();
+                setOpen(false);
+              }}
+              className="w-full text-left flex items-center gap-2 rounded-lg px-4 py-3 text-sm font-semibold text-primary hover:bg-muted"
+            >
+              <Download className="h-4 w-4" />
+              Install Mobile App
+            </button>
+          )}
         </div>
       )}
     </header>
